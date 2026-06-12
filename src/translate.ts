@@ -141,15 +141,13 @@ export async function runTranslate(bookDir: string, opts: TranslateOpts): Promis
         `same numbering, no blank lines, no commentary:\n\n` +
         numbered;
 
-      let acc = "";
       const { text, inTok, outTok } = await callStream(
         client,
         model,
         system,
         user,
-        (delta) => {
-          acc += delta;
-          const n = Math.min(completedLines(acc), batch.items.length);
+        (snapshot) => {
+          const n = Math.min(completedLines(snapshot), batch.items.length);
           if (n !== live[bi]) {
             live[bi] = n;
             render();
