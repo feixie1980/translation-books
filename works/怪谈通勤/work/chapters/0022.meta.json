@@ -3,5 +3,9 @@
   "sourceFile": "Ch. 22.docx",
   "format": "docx",
   "koChars": 4021,
-  "paragraphs": 234
+  "paragraphs": 234,
+  "model": "claude-sonnet-4-6",
+  "tokensIn": 9802,
+  "tokensOut": 5087,
+  "translatedAt": "2026-06-12T18:23:51.437Z"
 }

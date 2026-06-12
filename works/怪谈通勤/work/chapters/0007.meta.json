@@ -3,5 +3,9 @@
   "sourceFile": "Ch. 7.docx",
   "format": "docx",
   "koChars": 103325,
-  "paragraphs": 782
+  "paragraphs": 782,
+  "model": "claude-sonnet-4-6",
+  "tokensIn": 120447,
+  "tokensOut": 57520,
+  "translatedAt": "2026-06-12T17:45:13.230Z"
 }

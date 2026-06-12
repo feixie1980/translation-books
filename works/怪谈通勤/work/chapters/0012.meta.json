@@ -3,5 +3,9 @@
   "sourceFile": "Ch. 12.docx",
   "format": "docx",
   "koChars": 83995,
-  "paragraphs": 611
+  "paragraphs": 611,
+  "model": "claude-sonnet-4-6",
+  "tokensIn": 97059,
+  "tokensOut": 45490,
+  "translatedAt": "2026-06-12T17:59:17.360Z"
 }
