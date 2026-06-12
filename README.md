@@ -58,6 +58,56 @@ pnpm book build works/怪谈通勤 --per-chapter         # also one file per cha
 pnpm book run works/怪谈通勤
 ```
 
+## Code architecture
+
+The tool is a small TypeScript CLI run with `tsx` (no build step). All sources
+live in `src/`. The pipeline is **four stages**, each a command that reads from
+and writes to disk, so any stage can run independently and is skipped when its
+output already exists (re-run freely; use `--force`/`--retranslate` to redo).
+
+```
+                 src/cli.ts  (commander: parses args, dispatches)
+                     │
+   extract ──────────┼───────── glossary ──── translate ──────── build
+   runExtract()      │          runGlossary()  runTranslate()     runBuild()
+   src/extract.ts    │          src/glossary.ts src/translate.ts  src/build.ts
+        │            │               │              │                  │
+   src/sources.ts    │          src/anthropic.ts (Claude API client + prompt cache)
+   (docx/html parse) │          src/context.ts   (style + glossary <-> context.yaml)
+                     │
+              src/util.ts  (config, chapter discovery, paths, cost — used by all)
+```
+
+### What each file does
+
+| File | Responsibility |
+|------|----------------|
+| **`cli.ts`** | Entry point. Defines the `extract` / `glossary` / `translate` / `build` / `run` commands and their flags with `commander`, then calls the matching `runX()`. `run` chains all stages (auto-seeding the glossary if `context.yaml` is missing). |
+| **`util.ts`** | Shared foundation used by every stage: loads `book.yaml` (`loadBookConfig`), discovers source chapters and parses their episode number from the filename (`discoverRawChapters`, `episodeFromFilename`), computes all on-disk paths (`koPath`/`zhPath`/`metaPath`/`outDir`), parses the `--only` filter (`parseOnly`), splits text into paragraphs (`splitParagraphs`), reads/writes per-chapter metadata, and reports token cost (`PRICING`, `estimateCost`). |
+| **`sources.ts`** | **Stage 1 parsing.** `extractChapter()` turns one raw file into normalized plain text — `.docx` via `mammoth`, `.html` via `cheerio`. The HTML path finds the element with the most direct `<p>` children, takes its (obfuscated) content class, and collects every `<p>` under that class in document order, since KakaoPage splits a chapter across sibling blocks. Strips the `RAW` / "NNN화" header and page chrome. |
+| **`extract.ts`** | **Stage 1 driver.** `runExtract()` walks discovered chapters, calls `extractChapter()`, writes `work/chapters/NNN.ko.txt`, and records source metadata (char/paragraph counts) to `NNN.meta.json`. Skips files already extracted unless `--force`. |
+| **`context.ts`** | The per-book translation context (`context.yaml`): a free-form `style` string plus a `glossary` of `ko → zh` term mappings. `loadContext`/`saveContext` read & write the YAML, `mergeGlossary` adds new terms without clobbering edited renderings, and `buildSystemPrompt` renders both into the system prompt that pins proper nouns. |
+| **`anthropic.ts`** | The only place that talks to the Claude API. `getClient()` constructs the SDK client (requires `ANTHROPIC_API_KEY`); `call()` makes one `messages.create` request with the system prompt sent as a **cache-controlled block** (so the identical style+glossary is billed at the cached rate across calls) and returns the text plus token counts. |
+| **`glossary.ts`** | **Glossary stage.** `runGlossary()` samples the first few extracted chapters, asks the model (via `anthropic.call`) to extract recurring proper nouns as JSON, merges them into `context.yaml`. Runs entirely from the CLI so new books don't need a manual glossary to start. |
+| **`translate.ts`** | **Stage 3.** `runTranslate()` reads `NNN.ko.txt`, groups paragraphs into batches under a source-character budget (`batchByChars`), and sends each batch as numbered lines with the `context.ts` system prompt. Responses are matched back by line number so paragraph structure is preserved **1:1** (a dropped paragraph falls back to the source). Writes `NNN.zh.txt` and updates `NNN.meta.json` with model + token usage. Skips chapters already translated unless `--retranslate`. |
+| **`build.ts`** | **Stage 4.** `runBuild()` collects translated chapters (ordered by episode), renders each as HTML, and emits **epub** (`epub-gen-memory`, with a `目录` TOC of `第N话` titles) and/or **pdf** (a single HTML doc with an anchored TOC, printed via headless Chrome through `puppeteer`). `--per-chapter` also writes one file per chapter under `out/chapters/`. |
+
+### Data flow on disk
+
+```
+Raws/Ch.12.docx ──extract──▶ work/chapters/0012.ko.txt ──translate──▶ work/chapters/0012.zh.txt
+Raws/360.html   ──extract──▶ work/chapters/0360.ko.txt        │                    │
+                                   │                          │                    ▼
+                                   └──────glossary───▶ context.yaml ──▶ (translate system prompt)
+                                                                                   │
+                                            work/chapters/NNN.zh.txt ──build──▶ out/<title>.{epub,pdf}
+```
+
+Each `NNN.meta.json` carries the episode number, source file/format, char &
+paragraph counts, and (after translation) the model and token usage. All of
+`work/` and `out/` is git-tracked, so translations and outputs are versioned
+alongside the raws.
+
 ## Defaults
 
 - **Model:** `claude-opus-4-8` (override per command with `--model`). Roughly
