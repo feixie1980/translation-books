@@ -20,7 +20,7 @@ import {
   log,
 } from "./util.js";
 import { loadContext, buildSystemPrompt } from "./context.js";
-import { getClient, call } from "./anthropic.js";
+import { getClient, callStream } from "./anthropic.js";
 
 // ---- progress line: live-updating on a TTY, plain log lines otherwise ------
 const isTTY = Boolean(process.stdout.isTTY);
@@ -46,6 +46,26 @@ export interface TranslateOpts {
   model?: string;
   retranslate?: boolean;
   batchChars?: number; // source chars per API call (default 3500)
+  concurrency?: number; // batches translated in parallel (default 4)
+}
+
+/** Count completed (newline-terminated) lines in a streaming accumulator. */
+function completedLines(s: string): number {
+  let n = 0;
+  for (let i = 0; i < s.length; i++) if (s.charCodeAt(i) === 10) n++;
+  return n;
+}
+
+/** Run async tasks with a bounded number in flight at once. */
+async function runPool(tasks: Array<() => Promise<void>>, limit: number): Promise<void> {
+  let next = 0;
+  const workers = Array.from({ length: Math.min(limit, tasks.length) }, async () => {
+    while (next < tasks.length) {
+      const i = next++;
+      await tasks[i]();
+    }
+  });
+  await Promise.all(workers);
 }
 
 export async function runTranslate(bookDir: string, opts: TranslateOpts): Promise<void> {
@@ -53,6 +73,7 @@ export async function runTranslate(bookDir: string, opts: TranslateOpts): Promis
   const ctx = loadContext(bookDir);
   const model = opts.model ?? DEFAULT_MODEL;
   const budget = opts.batchChars ?? 3500;
+  const concurrency = Math.max(1, opts.concurrency ?? 4);
   const system = buildSystemPrompt(ctx, cfg.sourceLang, cfg.targetLang);
 
   const filter = parseOnly(opts.only);
@@ -92,10 +113,25 @@ export async function runTranslate(bookDir: string, opts: TranslateOpts): Promis
     const result = new Array<string>(paras.length);
     let chIn = 0;
     let chOut = 0;
-    let doneParas = 0;
 
-    for (let b = 0; b < batches.length; b++) {
-      const batch = batches[b];
+    // Live, aggregate progress across all in-flight batches: each batch reports
+    // how many of its lines have streamed in so far; we sum and render. Throttled
+    // so frequent stream deltas don't flood the line (force=true bypasses it).
+    const live = new Array<number>(batches.length).fill(0);
+    let lastRender = 0;
+    const render = (force = false) => {
+      const now = Date.now();
+      if (!force && now - lastRender < 200) return;
+      lastRender = now;
+      const done = Math.min(
+        live.reduce((a, b) => a + b, 0),
+        paras.length,
+      );
+      progress(`${prefix}: ${done}/${paras.length} paras (${batches.length} batches ×${concurrency})`);
+    };
+    render(true);
+
+    const tasks = batches.map((batch, bi) => async () => {
       const numbered = batch.items
         .map((p, i) => `${batch.start + i + 1}\t${p}`)
         .join("\n");
@@ -105,18 +141,33 @@ export async function runTranslate(bookDir: string, opts: TranslateOpts): Promis
         `same numbering, no blank lines, no commentary:\n\n` +
         numbered;
 
-      progress(`${prefix}: ${doneParas}/${paras.length} paras (batch ${b + 1}/${batches.length}) ...`);
-      const { text, inTok, outTok } = await call(client, model, system, user);
+      let acc = "";
+      const { text, inTok, outTok } = await callStream(
+        client,
+        model,
+        system,
+        user,
+        (delta) => {
+          acc += delta;
+          const n = Math.min(completedLines(acc), batch.items.length);
+          if (n !== live[bi]) {
+            live[bi] = n;
+            render();
+          }
+        },
+      );
       chIn += inTok;
       chOut += outTok;
-      doneParas += batch.items.length;
 
       for (const line of text.split(/\r?\n/)) {
         const m = line.match(/^\s*(\d+)\s*\t\s*(.*)$/) || line.match(/^\s*(\d+)[.):]\s*(.*)$/);
         if (m) result[parseInt(m[1], 10) - 1] = m[2].trim();
       }
-      progress(`${prefix}: ${doneParas}/${paras.length} paras (batch ${b + 1}/${batches.length})`);
-    }
+      live[bi] = batch.items.length;
+      render(true);
+    });
+
+    await runPool(tasks, concurrency);
     progressEnd();
 
     // Fall back to source for any paragraph the model dropped.

@@ -59,9 +59,14 @@ program
   .option("--model <id>", `model (default ${DEFAULT_MODEL})`)
   .option("--retranslate", "re-translate even if NNN.zh.txt exists")
   .option("--batch-chars <n>", "source chars per API call", (v) => parseInt(v, 10))
+  .option("--concurrency <n>", "batches translated in parallel (default 4)", (v) => parseInt(v, 10))
   .action(async (book, opts) => {
     assertBook(book);
-    await runTranslate(book, { ...opts, batchChars: opts.batchChars });
+    await runTranslate(book, {
+      ...opts,
+      batchChars: opts.batchChars,
+      concurrency: opts.concurrency,
+    });
   });
 
 program

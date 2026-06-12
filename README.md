@@ -87,9 +87,9 @@ output already exists (re-run freely; use `--force`/`--retranslate` to redo).
 | **`sources.ts`** | **Stage 1 parsing.** `extractChapter()` turns one raw file into normalized plain text — `.docx` via `mammoth`, `.html` via `cheerio`. The HTML path finds the element with the most direct `<p>` children, takes its (obfuscated) content class, and collects every `<p>` under that class in document order, since KakaoPage splits a chapter across sibling blocks. Strips the `RAW` / "NNN화" header and page chrome. |
 | **`extract.ts`** | **Stage 1 driver.** `runExtract()` walks discovered chapters, calls `extractChapter()`, writes `work/chapters/NNN.ko.txt`, and records source metadata (char/paragraph counts) to `NNN.meta.json`. Skips files already extracted unless `--force`. |
 | **`context.ts`** | The per-book translation context (`context.yaml`): a free-form `style` string plus a `glossary` of `ko → zh` term mappings. `loadContext`/`saveContext` read & write the YAML, `mergeGlossary` adds new terms without clobbering edited renderings, and `buildSystemPrompt` renders both into the system prompt that pins proper nouns. |
-| **`anthropic.ts`** | The only place that talks to the Claude API. `getClient()` constructs the SDK client (requires `ANTHROPIC_API_KEY`); `call()` makes one `messages.create` request with the system prompt sent as a **cache-controlled block** (so the identical style+glossary is billed at the cached rate across calls) and returns the text plus token counts. |
+| **`anthropic.ts`** | The only place that talks to the Claude API. `getClient()` constructs the SDK client (requires `ANTHROPIC_API_KEY`); `call()` / `callStream()` make one `messages.create` request with the system prompt sent as a **cache-controlled block** (so the identical style+glossary is billed at the cached rate across calls). `callStream` emits text deltas for live progress. Both return the text plus token counts. |
 | **`glossary.ts`** | **Glossary stage.** `runGlossary()` samples the first few extracted chapters, asks the model (via `anthropic.call`) to extract recurring proper nouns as JSON, merges them into `context.yaml`. Runs entirely from the CLI so new books don't need a manual glossary to start. |
-| **`translate.ts`** | **Stage 3.** `runTranslate()` reads `NNN.ko.txt`, groups paragraphs into batches under a source-character budget (`batchByChars`), and sends each batch as numbered lines with the `context.ts` system prompt. Responses are matched back by line number so paragraph structure is preserved **1:1** (a dropped paragraph falls back to the source). Writes `NNN.zh.txt` and updates `NNN.meta.json` with model + token usage. Skips chapters already translated unless `--retranslate`. |
+| **`translate.ts`** | **Stage 3.** `runTranslate()` reads `NNN.ko.txt`, groups paragraphs into batches under a source-character budget (`batchByChars`), and sends each batch as numbered lines with the `context.ts` system prompt. Batches **stream** (`callStream`) and run through a **bounded concurrency pool** (`runPool`, `--concurrency`, default 4), with aggregate live progress. Responses are matched back by line number so paragraph structure is preserved **1:1** (a dropped paragraph falls back to the source). Writes `NNN.zh.txt` and updates `NNN.meta.json` with model + token usage. Skips chapters already translated unless `--retranslate`. |
 | **`build.ts`** | **Stage 4.** `runBuild()` collects translated chapters (ordered by episode), renders each as HTML, and emits **epub** (`epub-gen-memory`, with a `目录` TOC of `第N话` titles) and/or **pdf** (a single HTML doc with an anchored TOC, printed via headless Chrome through `puppeteer`). `--per-chapter` also writes one file per chapter under `out/chapters/`. |
 
 ### Data flow on disk
@@ -115,6 +115,9 @@ alongside the raws.
   on Sonnet (~$0.21 on Opus); the style+glossary system prompt is prompt-cached.
 - **Caching:** every stage skips work already on disk; re-run freely. Use
   `--force` (extract) / `--retranslate` (translate) to redo.
+- **Speed:** translation streams responses (live per-paragraph progress) and
+  runs up to 4 batches in parallel. Tune with `--concurrency <n>` (e.g. `1` to
+  serialize, higher to go faster if your API rate limit allows).
 - **Titles:** `第{n}话` (the Korean raws have no descriptive chapter titles).
 
 ## context.yaml
