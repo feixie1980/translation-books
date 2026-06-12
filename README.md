@@ -110,8 +110,9 @@ alongside the raws.
 
 ## Defaults
 
-- **Model:** `claude-opus-4-8` (override per command with `--model`). Roughly
-  $0.19 per ~5k-char chapter; the style+glossary system prompt is prompt-cached.
+- **Model:** `claude-sonnet-4-6` (override per command with `--model`, e.g.
+  `--model claude-opus-4-8` for top quality). Roughly $0.13 per ~5k-char chapter
+  on Sonnet (~$0.21 on Opus); the style+glossary system prompt is prompt-cached.
 - **Caching:** every stage skips work already on disk; re-run freely. Use
   `--force` (extract) / `--retranslate` (translate) to redo.
 - **Titles:** `第{n}话` (the Korean raws have no descriptive chapter titles).

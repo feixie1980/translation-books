@@ -6,7 +6,7 @@ import path from "node:path";
 import yaml from "js-yaml";
 
 // ---- Models / pricing -----------------------------------------------------
-export const DEFAULT_MODEL = "claude-opus-4-8";
+export const DEFAULT_MODEL = "claude-sonnet-4-6";
 
 // $ per 1M tokens: [input, output]. Used for the after-run cost report.
 export const PRICING: Record<string, [number, number]> = {

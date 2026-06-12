@@ -21,33 +21,99 @@ glossary:
   - ko: FLOWER GOLDEN
     zh: FLOWER GOLDEN
     note: term
+  - ko: 경비팀
+    zh: 警备组
+    note: org
+  - ko: 고영은
+    zh: 高英恩
+    note: character
+  - ko: 곽제강
+    zh: 郭济江
+    note: character
   - ko: 김솔음
     zh: 金率音
+    note: character
+  - ko: 꿈결
+    zh: 梦境
+    note: term
+  - ko: 꿈결 수집기
+    zh: 梦境收集器
+    note: term
+  - ko: 노루
+    zh: 狍子
+    note: character
+  - ko: 더넓은 무전기
+    zh: 更广对讲机
+    note: term
+  - ko: 도마뱀
+    zh: 蜥蜴
+    note: character
+  - ko: 독사
+    zh: 毒蛇
     note: character
   - ko: 류재관
     zh: 柳在宽
     note: character
+  - ko: 리얼굿즈 박스
+    zh: 真实周边礼盒
+    note: term
   - ko: 리조트
     zh: 度假村
     note: place
+  - ko: 마무리팀
+    zh: 收尾组
+    note: org
   - ko: 마스코트
     zh: 吉祥物
+    note: term
+  - ko: 매직버니 아케이드존
+    zh: 魔法兔冒险区
+    note: term
+  - ko: 메모리얼 그립톡
+    zh: 纪念手机支架
     note: term
   - ko: 무명찬란교
     zh: 无名璀璨教
     note: org
+  - ko: 박민성
+    zh: 朴敏成
+    note: character
+  - ko: 백사헌
+    zh: 白蛇轩
+    note: character
   - ko: 백일몽 주식회사
     zh: 白日梦株式会社
     note: org
   - ko: 백일몽주식회사
     zh: 白日梦株式会社
     note: org
+  - ko: 버터나이프
+    zh: 黄油刀
+    note: term
   - ko: 브라운
     zh: 布朗
     note: character
+  - ko: 삐에로는 널 싫어해
+    zh: 小丑讨厌你
+    note: term
+  - ko: 산제물의 합창가
+    zh: 祭品的合唱曲
+    note: term
+  - ko: 선택해 줘
+    zh: 替我选择
+    note: term
   - ko: 세광특별시
     zh: 世光特别市
     note: place
+  - ko: 소원권
+    zh: 愿望券
+    note: term
+  - ko: 송골매
+    zh: 海东青
+    note: character
+  - ko: 스마일 스티커
+    zh: 微笑贴纸
+    note: term
   - ko: 슬픔역
     zh: 悲伤站
     note: place
@@ -56,6 +122,15 @@ glossary:
     note: term
   - ko: 심연교통공사에 어서오세요
     zh: 欢迎来到深渊交通公社
+    note: term
+  - ko: 안녕 교통정보
+    zh: 你好交通信息
+    note: term
+  - ko: 암흑 등급
+    zh: 暗黑等级
+    note: term
+  - ko: 앨리스 피크닉세트
+    zh: 爱丽丝野餐套装
     note: term
   - ko: 어둠
     zh: 黑暗
@@ -66,27 +141,84 @@ glossary:
   - ko: 어둠탐사기록
     zh: 黑暗探查记录
     note: term
+  - ko: 어스름 등급
+    zh: 暮色等级
+    note: term
+  - ko: 연구 1팀
+    zh: 研究一组
+    note: org
+  - ko: 연옥합창단
+    zh: 炼狱合唱团
+    note: org
+  - ko: 오소리
+    zh: 獾
+    note: character
+  - ko: 외계인 상점
+    zh: 外星人商店
+    note: term
   - ko: 요원
     zh: 要员
+    note: term
+  - ko: 우리가 도움!
+    zh: 我们来帮忙！
+    note: term
+  - ko: 우주 쇼핑몰
+    zh: 宇宙购物商城
+    note: term
+  - ko: 원료개발부
+    zh: 原料开发部
+    note: org
+  - ko: 유쾌 테마파크
+    zh: 愉快主题乐园
+    note: term
+  - ko: 유쾌 테마파크 이용 지침서
+    zh: 愉快主题乐园使用指南
+    note: term
+  - ko: 유쾌연구소
+    zh: 愉快研究所
+    note: org
+  - ko: 유쾌연구소의 장난감 메이커
+    zh: 愉快研究所的玩具制造机
     note: term
   - ko: 은하제
     zh: 殷河齐
     note: character
+  - ko: 은화 뱀
+    zh: 银币蛇
+    note: term
   - ko: 이자헌
     zh: 李子轩
+    note: character
+  - ko: 임직원 복지몰
+    zh: 员工福利商城
+    note: term
+  - ko: 장허운
+    zh: 张许云
     note: character
   - ko: 재난관리국
     zh: 灾难管理局
     note: org
+  - ko: 제사를 드리오니
+    zh: 谨献祭祀
+    note: term
   - ko: "종말예언 : 어둠탐사기록"
     zh: 末日预言：黑暗探查记录
     note: term
+  - ko: 진나솔
+    zh: 陈娜率
+    note: character
   - ko: 착한 친구
     zh: 善良的朋友
     note: term
   - ko: 초자연재난관리국
     zh: 超自然灾难管理局
     note: org
+  - ko: 친절한 씨앗 키트
+    zh: 亲切种子套件
+    note: term
+  - ko: 판타지 트레인
+    zh: 幻想列车
+    note: term
   - ko: 플라워 골든
     zh: 黄金花
     note: term
@@ -96,3 +228,15 @@ glossary:
   - ko: 현장탐사팀
     zh: 现场探查队
     note: org
+  - ko: 화요 퀴즈쇼
+    zh: 周二问答秀
+    note: term
+  - ko: 화요의 합창단
+    zh: 周二合唱团
+    note: term
+  - ko: 황혼 등급
+    zh: 黄昏等级
+    note: term
+  - ko: 흡혈 식기
+    zh: 吸血餐具
+    note: term

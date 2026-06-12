@@ -1,0 +1,657 @@
+Tab 1
+<어둠탐사기록>의 괴담들에게는 공통점이 하나 있다.
+인기가 있을수록 탐사기록에 변칙이 생길 확률이 높다는 것이다.
+‘창작자가 여러 명이라 그렇지.’
+처음 괴담이 생겼을 때는 규칙을 철저히 지키며 적는다.
+하지만 인기가 많아지며 너도나도 해당 괴담에 대한 탐사기록을 적기 시작하면 어떻게 되는가?
+번호가 길어질수록 반복과 지루함을 탈피하기 위해, ‘말이 되는 수준’에서 조금씩 예외 케이스가 생기는 것이다.
+지금 내가 절박하게 떠올린 예시도 그중 하나다.
+<백일몽 주식회사>의 현장탐사팀 J조가 야밤의 폐병원에서 12시간을 버티면 됐던 탐사기록.
+그런데….
+※특이사항 : 16시간 11분 경과 후 탐사 종료.
+애매하게 16시간 11분 경과 후에 탐사가 종료되었다.
+내가 찾던 ‘시간적 변칙성’이 맞다. 다만….
+‘오히려 탈출까지 시간이 더 걸렸어.’
+탐사 도중에 무슨 문제가 발생한 건지 ‘버텨야 하는 기간’인 12시간보다 길게 괴담에 갇혀 있던 것이다.
+‘그러니까… 분명, 뭘 실수했던 거였는데.’
+기억났다!
+‘시간 알람을 못 받았지!’
+======================
+(03:12) 이재진 사원이 실수로 카운터 전화선을 끊음.
+======================
+이것 때문에 병실 데스크에 본래 와야 할 전화가 못 온 것이다.
+바로 근무 교대 콜.
+그래서 본래 12시간 후 야간 당직이 끝나고 퇴근해야 했던 의사가 근무를 계속했던 미친 상황이 발생했다.
+======================
+(12:12) 오전 7시 12분을 넘겼으나 해가 뜨지 않음.
+======================
+아무리 시간이 흘러도 밤이 끝나지 않은 것이다.
+괴담에 진입하자마자 손목시계로 오후 7시를 맞춰뒀던 직원은 해당 사실을 깨닫자마자 패닉에 빠졌다고 한다.
+‘차라리 잡혀서 재시작할지 말지를 두고 싸우다가 한 사람이 포박당했던 것 같은데.’
+다행히 몇 시간 후에 다른 팀원이 전화선을 연결하며 정상적으로 경과가 진행되어 겨우 탈출했지만 말이다.
+======================
+(16:09) 전화선 복구 성공. 곧바로 전화가 울림. 데스크에서 3m 이상 떨어져 대기.
+(16:11) 의사가 전화를 받고 사라짐. 탈출 시도 성공.
+======================
+약속된 시간이 지나도 끝나지 않는 괴담. 분명 오싹해지는 이레귤러다.
+‘그래도 힌트가 있어.’
+비록 이건 시간이 늘어난 케이스지만, 뽑아낼 매커니즘이 있었다.
+바로 시간 종료를 알리는 트리거가 있었다는 것.
+‘저 케이스에선 근무 교대 전화였지.’
+그리고, 그 트리거가 작동하지 않으면 괴담이 끝나지 않았다.
+반대로 생각하자면….
+‘시간을 알리는 트리거가 작동만 하면, 더 빨리 끝날 수도 있는 건가?’
+“…….”
+편의점에서 시간의 흐름을 알 수 있는 게 뭐가 있지?
+툭.
+“……!”
+잠깐.
+‘…소리가.’
+내 머리 위에서 나고 있다.
+나는 막힌 내 머리 위를 무심코 쳐다보았다.
+여기는 편의점 카운터 아래.
+그러니까 이 위에 있는 건….
+포스기.
+삑.
+삑삑삑삑삐삐삐삑삡삑삑.
+귀신이 계산대의 포스기를 누르고 있었다.
+그 이상한 리듬에 따라 녹음된 목소리가 편의점을 울린다.
+직원을 호출합니다… 직원을 호출, 직원을호직원을호출직직직직원을직원을호직원을호출합니다
+“…!!”
+알겠다.
+이거, 내가 밑에 있다는 걸 아는 거다.
+일부러 안 잡고 장난치는 거야.
+…아는 데도 분노보다는 식은땀이 등 뒤로 흘렀다.
+와 이거 진짜 미치겠다, 사람을 미치게 하네.
+‘나가자.’
+나가서 뛰어야 한다.
+하지만 발이 마음처럼 쉽고 가볍게 움직이질 않는다. 공포영화에서 귀신을 보고 주저앉아 죽는 엑스트라와 하등 다를 게 없다.
+‘안 돼.’
+어차피 잡히는 건 똑같더라도 무기력이 학습되면 안 된다.
+결국 나는 어떻게든 억지로 계산대를 비집고 나왔다.
+그 순간.
+직원을 호출합니다.
+내얼굴앞에갑자기시퍼렇고퉁퉁불은얼굴이
+입이 찢어져라 웃는다.
+-잡았다
+* * *
+재시작.
+‘…….’
+나는 아주 천천히 심호흡했다.
+심장이 너무 쿵쾅거려서 잠깐 머리가 아팠으나, 참았다.
+‘지나갔어.’
+온몸이 저리다.
+‘참자.’
+대신 어두운 편의점 전경을 바라봤다.
+이번에는 계산대로 가는 대신, 불빛이 나오는 음료 냉장고의 반대 방향으로 뛰었다.
+바로 편의점 출입구 방향.
+“…….”
+유리문 밖은 새카만 어둠이다.
+그래도 최대한 밖을 보려고 하자, 바깥쪽 유리문 옆에 달린 뭔가가 보였다.
+“…!”
+전자시계다.
+[12:00⼁04⼁04]
+4월 4일 12시.
+저게 이 괴담의 현재 설정 날짜인가.
+어둠에 적응된 눈이 유리문에 달린 차임벨도 구분해 냈다. 아마 저 문을 잡는 순간 종소리를 들은 귀신이 그 이상한 발걸음으로 뛰어올 것이리라.
+‘그리고 애초에 열리지도 않겠지….’
+버텨야 하는 장소가 편의점으로 정해졌으니까. 제한이 걸렸을 거다.
+나는 유리문 밖에서 시선을 떼고, 근처 진열대에 반쯤 몸을 가렸다.
+그리고 벽에 등을 기댄 채 편의점 곳곳을 주시하며 생각을 이어 나갔다.
+관자놀이로 흘러내린 식은땀이 차갑다.
+‘내가 버텨야 하는 날짜는 사흘.’
+그럼 내 완료 시점쯤의 시간을 알려줄 만한 트리거는… 과연 뭐가 있을까.
+이 편의점에서 사흘 후에 일어날 일은…….
+‘물류?’
+나는 힐끔, 유리문 근처에 쌓인 박스를 보았다.
+새 물건이 입고되는 시간이라.
+‘사흘 후 날짜에 입고될 물건을 어떻게든 확인하고. 그 물건으로 어떻게든 위장해서 미리 넣어보는 식으로 시간 암시를….’
+아니야. 그건 너무 비직관적이다.
+그렇게 복잡하고 자잘한 가공 단계만 거치는 게 통할 리가 없다.
+<어둠탐사기록>은 인터넷 괴담이다.
+‘그리고 인터넷 괴담은 직관적이야.’
+자질구레한 조건과 짜맞추기가 많아질수록 임팩트가 떨어지기에 인기를 끌 수 없다.
+‘좀 더 간단하고 딱 맞아떨어지는 느낌이 들어야 한다.’
+그렇다면….
+편의점에서 시간의 흐름을 가장 쉽게 느낄 수 있는 물건은?
+“…!”
+그래.
+나는 출입구 가장 가까이에 있는 진열대를 보았다. 음료 냉장고와는 또 다르게 생겼으나 냉기가 뿜어져 나오는 진열대.
+하지만 기묘하게도 거기 진열된 건 몇 개 없다.
+유제품 음료나 커피 약간, 그리고… 도시락과 삼각김밥이다.
+빨리 상하는 식사류 음식.
+‘…유통기한!’
+당장 진열대로 향해서 도시락과 삼각김밥을 들어서 확인하기 시작했다.
+‘대부분 삼각김밥은 유통기한이 36시간에서 48시간이다.’
+아마 도시락도 비슷하겠지.
+하지만 기묘할 만큼 꽤 많은 도시락과 삼각김밥이 유통기한이 사흘 이상으로 길거나 아예 표기가 엉망으로 지워진 채 있었다.
+나는 인내심을 가지고, 최대한 소리를 내지 않고 조심스럽게 물건의 뒷면과 앞면을 살폈다.
+그리고 결국….
+‘찾았다.’
+이 괴담에서 현 시각은 4월 4일 12시.
+4월 7일 12시에 유통기한이 끝나는 상품.
+[국물 함박 도시락]
+나는 그 도시락을 집어들었다.
+그리고 편의점을 가로질러 포스기로 다가갔다.
+‘윽.’
+계산대에 서서 호출 버튼을 미친 듯이 누르던 귀신의 잔상이 아른거렸다.
+그러나 기분 탓이다. 아직 이쪽에는 나타나지 않았다….
+‘침착하게.’
+포스기에서 기기 설정을 누른 후, ‘날짜 및 시간 변경’을 선택한다… 됐다, 있다! 나는 안도의 한숨을 참으며 화면을 들여다보았다.
+‘설정 시간은….’
+시작 시점인 4월 4일 자정에서 정확히 이틀하고도 23시간 59분 후.
+[4월 7일 오후 11:59]
+‘제발 좀!’
+초조한 심정으로 빌었다.
+변경 버튼을 누르고, 확인하면…….
+[변경 완료]
+“…!!”
+됐다!
+‘이거 가끔 설정 변경 못 하는 경우도 많은데 그나마 불행 중 다행, 아니, 정말로 다행이다.’
+기쁨과 초조함으로 손이 떨렸으나 다잡았다.
+이제 거의 다 왔다.
+챙겨온 식품을 들어서 폐기 임박으로 등록하기만 하면 된….
+삐리리릭!
+“…….”
+[폐기 알람]
+[유통기한이 임박한 상품이 있습니다!]
+포스기가 명랑한 말씨로 외쳤다.
+어두운 편의점에서 그 녹음된 안내 목소리가 홀로 울린다.
+삐리리릭! 삐리리릭!
+“…….”
+나는 굳은 채 고개를 돌렸다.
+저 멀리서
+눈이 마주쳤다.
+달려온다.
+“이…!”
+보지 말고 화면을 봐라. 화면만!
+제발 좀, 제발! 빨리!
+삑.
+내 손을 세 번의 헛방질 끝에 바코드를 찍었다.
+[등록하시겠습니까?]
+예,를 연타….
+발소리가 너무 빨리 가까워졌다.
+티티티티틱하는 이상한 소리가 계속 가까워지는데 참고, 나는 계속 손을 움직여서….
+[폐기를 등록했습니다.]
+미친 듯이 이상한 발걸음으로 달려오던 귀신의 발이 계산대 바로 앞까지 오며 진동이 느껴지는 순간.
+[완료]
+사라졌다.
+“…….”
+픽.
+전등이 켜졌다.
+눈이 아프도록 밝아진 편의점 안, 이제 그리 눈에 띄지 않는 포스기의 화면이 간단명료한 설명을 보여준다.
+[등록 완료]
+지지지직, 마감영수증이 프린트된다.
+그 백색소음 속에서 실감했다.
+‘됐어.’
+내가 성공했다는 걸.
+“후.”
+계산대에 몸을 기대고 고개를 숙였다. 다리가 후들거렸다.
+‘숨이 안 쉬어진다….’
+사람은 진짜 빛에 의존하는구나!
+그래도 밝아졌다는 것만으로도 심신에 안정이 찾아왔다.
+‘이제 문으로 나가면 되는….’
+달캉!
+포스기 밑 현금보관함이 자동으로 열렸다.
+‘어?’
+안에 든 건 두툼한 갈색 봉투 하나다.
+“이건….”
+나는 봉투를 잡아 들어 열었다.
+두텁고 빳빳한 황금빛 지폐 네 묶음이 보였다.
+“…!?”
+오만원권 다발!
+‘배, 백 장씩 네 묶음인 건가?’
+그럼 총 이천만 원이었다.
+이렇게 큰돈을 현금으로 만져본 건 처음이었다. 근데 이게 왜 편의점 현금보관함에….
+아.
+‘상금!’
+======================
+어둠탐사기록 / 괴담
+/ 선택해 줘
+여담
+클리어 시 정말로 돈을 준다. 그럼 그냥 사람 놀래키는 걸 좋아하는 착한 친구 아닌가
+======================
+오.
+* * *
+“얼마나 걸릴까요?”
+“사흘 채우면 바로 나올 수 있을 것 같은데.”
+“한 번에 성공? 와, 평가 후하다. 후해.”
+<백일몽 주식회사>의 현장탐사팀 D조.
+두 직원은 잠시 창고 옆 계단을 통해 옥상에 올라와 담배를 피우는 중이었다.
+방금 신입사원을 어둠에 넣고 배웅한 참이다.
+해도해도 별로 익숙해지는 일은 아니었다. 괴현상에 신입을 밀어 넣는 건.
+그래도 보통 이 <선택해 줘>라는 어둠은 설정 시간이 짧을수록 하드코어하고 길수록 느슨하니, 사흘이 당첨된 신입은 그리 빡세진 않을 것이다.
+‘2박 3일 담력 시험하는 수준이겠지.’
+물론 가혹하다. 가혹하지 않다는 건 아니다.
+그러나 두 직원의 머릿속에는 공통 명제가 있다.
+-이것도 못 버티면 금방 죽는다.
+그럼 차라리 퇴사하라는 거다.
+실제로 이 신고식 때문에 나간 신입이 꽤 있어서 D조는 인사팀 간부들에게 자주 눈칫밥을 먹었지만, 그래도 느물거리며 어떻게든 비비고 있었다.
+직장 동료, 그것도 같은 조 신입이 죽는 꼴을 바로 옆에서 보는 건 정신 건강에 정말 해로운 짓이었으니까….
+다만, 이번에는 조금 느낌이 달랐다.
+묘한 기대감.
+“이번 신입 말인데.”
+“예에.”
+“범상치 않았지.”
+“범상치 않았죠.”
+D조에 새롭게 발령받은 수석 신입사원, 김솔음.
+“첫 출근에 그러는 애 처음 봤어.”
+보통 신입사원들은 자기가 죽을 뻔했던 그 괴현상 속에 꾸준히 투입되는 게 ‘업무’라는 걸 깨닫는 순간 기겁하거나 혼비백산한다. 그게 당연했다.
+하지만 김솔음의 경우엔… 기묘할 정도로 침착했다.
+“별로 긴장한 것 같지도 않던데.”
+“예에. 안 놀라더라고요. 커피도 잘 마시고.”
+한순간도 평정심을 잃거나, 화장실에 처박혀서 울거나, 도망치려 들지 않았다.
+물론 김솔음은 이미 모든 걸 스포일러 당하고 사흘간 만사를 포기하고 마음의 준비를 끝냈을 뿐이지만.
+모르는 사람 눈에는 그저 미친 멘탈의 신입으로 보인 것이다!
+“대리님 맘에 들었나 보네.”
+“어. 아주 괜찮지.”
+강심장은 언제나 환영이었다.
+각종 끔찍하거나 기이하거나 섬뜩한 도시전설과 마주해야 하는 부서다. 겁쟁이는 곤란했다.
+‘뭐, 애초에 그 데스 서바이벌에서 겁쟁이가 합격할 리도 없다만….’
+있었다!
+물론 알 리 없는 상사들은 그저 고개를 끄덕이며 ‘이번 신입 괜찮은데’를 연발 중인 것이다.
+다만 약간 아쉬운 점도 있긴 했다.
+“근데 애가 요령 부리는 타입은 아닌 것 같은데, 왜 필기를 안 할까?”
+“첫 직장이라 잘 모를 수도 있죠. 그건 알려주면 돼.”
+이렇게 목숨이 왔다갔다하는 직업에서는 정보와 매뉴얼은 필수라며, 둘은 고개를 끄덕였다.
+“알려주면 적어놔야지. 그래야 다시 읽어보면서 제대로 아는 거잖아.”
+“맞아요. 미리 알고 있던 것도 아닐 텐데.”
+미리 알고 있었다!
+역시 짐작도 못 한 두 사람은 신입 받은 팀다운 대화를 계속 나누다가, 슬슬 복귀하자고 말을 정리했다.
+“상황보고서 써야지.”
+“하, 그놈의 보지도 않는 보고서는 매번….”
+어차피 신입은 빨라도 사흘 후에야 나올 것이다.
+그래도 내부에 식량과 잠자리도 있는 괴담이니, 장기전으로 가도 무리 없겠지.
+둘은 고개를 끄덕이고, 신입을 빨아들인 인터넷 글이 적혀 있던 패드를 챙겨 들었다.
+“그럼 이제 우린 서류 보러…?!”
+틱.
+그 순간 패드가 사람을 뱉었다.
+사흘 뒤에 나와야 하는 신입사원을.
+“…!?”
+신입사원, 김솔음은 1시간 30분 전과 별다를 바 없이 깨끗한 정장을 툭툭 털며 바닥에서 일어났다.
+그리고 한 손에 뭔가를 들어 올렸다.
+눈금이 꽉 찬 ‘꿈결 수집기’다.
+“채워왔습니다.”
+“…?!?!”
+클리어까지 소요 시간 1시간 24분.
+말도 안 되는 업적을 저지른 신입은 그저 무덤덤한 태도로 상사들을 보고 있었다.
+‘심장마비로 죽는 줄 알았네.’
+물론 중도하차 안 되는 귀신의 집 벽을 뚫고 탈출할 만큼 절박한 쫄보가 진이 빠졌을 뿐이지만!
+Html
+<h1 class="t4" style="font-size: 28.8px !important; font-weight: bold; margin: 0em; padding: 0em; line-height: 1.6em; text-indent: 0em; text-align: center" data-p-id="0" data-original-font-size="32" data-original-line-height="51">괴담에 떨어져도 출근을 해야 하는구나 008화</h1>
+<p data-p-id="1" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em"><br data-p-id="1"></p>
+<p data-p-id="2" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em"><br data-p-id="2"></p>
+<p data-p-id="3" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em">&lt;어둠탐사기록&gt;의 괴담들에게는 공통점이 하나 있다.</p>
+<p data-p-id="4" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em">인기가 있을수록 탐사기록에 변칙이 생길 확률이 높다는 것이다.</p>
+<p data-p-id="5" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em">‘창작자가 여러 명이라 그렇지.’</p>
+<p data-p-id="6" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em">처음 괴담이 생겼을 때는 규칙을 철저히 지키며 적는다.</p>
+<p data-p-id="7" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em">하지만 인기가 많아지며 너도나도 해당 괴담에 대한 탐사기록을 적기 시작하면 어떻게 되는가?
+</p>
+<p data-p-id="8" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em">번호가 길어질수록 반복과 지루함을 탈피하기 위해, ‘말이 되는 수준’에서 조금씩 예외
+케이스가 생기는 것이다.</p>
+<p data-p-id="9" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em">지금 내가 절박하게 떠올린 예시도 그중 하나다.</p>
+<p data-p-id="10" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em">&lt;백일몽 주식회사&gt;의 현장탐사팀 J조가 야밤의 폐병원에서 12시간을 버티면 됐던
+탐사기록.</p>
+<p data-p-id="11" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em">그런데….</p>
+<p data-p-id="12" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em"><br data-p-id="12"></p>
+<p data-p-id="13" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em"><span class="f1" data-p-id="13" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important">※특이사항 : <span class="fp2" data-p-id="13" data-original-font-size="20" data-original-line-height="32" style="color: rgb(255, 0, 0) !important; font-size: 18px !important">16시간 11분</span> 경과 후 탐사 종료.</span></p>
+<p data-p-id="14" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em"><br data-p-id="14"></p>
+<p data-p-id="15" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em">애매하게 16시간 11분 경과 후에 탐사가 종료되었다.</p>
+<p data-p-id="16" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em">내가 찾던 ‘시간적 변칙성’이 맞다. 다만….</p>
+<p data-p-id="17" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em">‘오히려 탈출까지 시간이 더 걸렸어.’</p>
+<p data-p-id="18" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em">탐사 도중에 무슨 문제가 발생한 건지 ‘버텨야 하는 기간’인 12시간보다 길게 괴담에 갇혀
+있던 것이다.</p>
+<p data-p-id="19" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em">‘그러니까… 분명, 뭘 실수했던 거였는데.’</p>
+<p data-p-id="20" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em">기억났다!</p>
+<p data-p-id="21" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em">‘시간 알람을 못 받았지!’</p>
+<p data-p-id="22" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em"><br data-p-id="22"></p>
+<p data-p-id="23" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em"><span class="f1" data-p-id="23" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important">======================</span></p>
+<p data-p-id="24" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em"><span class="f1" data-p-id="24" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important">(03:12) 이재진 사원이
+실수로 카운터 전화선을 끊음.</span></p>
+<p data-p-id="25" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em"><span class="f1" data-p-id="25" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important">======================</span></p>
+<p data-p-id="26" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em"><br data-p-id="26"></p>
+<p data-p-id="27" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em">이것 때문에 병실 데스크에 본래 와야 할 전화가 못 온 것이다.</p>
+<p data-p-id="28" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em">바로 근무 교대 콜.</p>
+<p data-p-id="29" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em">그래서 본래 12시간 후 야간 당직이 끝나고 퇴근해야 했던 의사가 근무를 계속했던 미친
+상황이 발생했다.</p>
+<p data-p-id="30" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em"><br data-p-id="30"></p>
+<p data-p-id="31" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em"><span class="f1" data-p-id="31" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important">======================</span></p>
+<p data-p-id="32" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em"><span class="f1" data-p-id="32" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important">(12:12) 오전 7시
+12분을 넘겼으나 해가 뜨지 않음.</span></p>
+<p data-p-id="33" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em"><span class="f1" data-p-id="33" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important">======================</span></p>
+<p data-p-id="34" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em"><br data-p-id="34"></p>
+<p data-p-id="35" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em">아무리 시간이 흘러도 밤이 끝나지 않은 것이다.</p>
+<p data-p-id="36" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em">괴담에 진입하자마자 손목시계로 오후 7시를 맞춰뒀던 직원은 해당 사실을 깨닫자마자 패닉에
+빠졌다고 한다.</p>
+<p data-p-id="37" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em">‘차라리 잡혀서 재시작할지 말지를 두고 싸우다가 한 사람이 포박당했던 것 같은데.’</p>
+<p data-p-id="38" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em">다행히 몇 시간 후에 다른 팀원이 전화선을 연결하며 정상적으로 경과가 진행되어 겨우
+탈출했지만 말이다.</p>
+<p data-p-id="39" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em"><br data-p-id="39"></p>
+<p data-p-id="40" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em"><span class="f1" data-p-id="40" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important">======================</span></p>
+<p data-p-id="41" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em"><span class="f1" data-p-id="41" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important">(16:09) 전화선 복구
+성공. 곧바로 전화가 울림. 데스크에서 3m 이상 떨어져 대기.</span></p>
+<p data-p-id="42" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em"><span class="f1" data-p-id="42" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important">(16:11) 의사가 전화를
+받고 사라짐. 탈출 시도 성공.</span></p>
+<p data-p-id="43" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em"><span class="f1" data-p-id="43" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important">======================</span></p>
+<p data-p-id="44" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em"><br data-p-id="44"></p>
+<p data-p-id="45" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em">약속된 시간이 지나도 끝나지 않는 괴담. 분명 오싹해지는 이레귤러다.</p>
+<p data-p-id="46" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em">‘그래도 힌트가 있어.’</p>
+<p data-p-id="47" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em">비록 이건 시간이 늘어난 케이스지만, 뽑아낼 매커니즘이 있었다.</p>
+<p data-p-id="48" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em">바로 시간 종료를 알리는 트리거가 있었다는 것.</p>
+<p data-p-id="49" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em">‘저 케이스에선 근무 교대 전화였지.’</p>
+<p data-p-id="50" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em">그리고, 그 트리거가 작동하지 않으면 괴담이 끝나지 않았다.</p>
+<p data-p-id="51" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em">반대로 생각하자면….</p>
+<p data-p-id="52" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em">‘시간을 알리는 트리거가 작동만 하면, 더 빨리 끝날 수도 있는 건가?’</p>
+<p data-p-id="53" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em">“…….”</p>
+<p data-p-id="54" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em">편의점에서 시간의 흐름을 알 수 있는 게 뭐가 있지?</p>
+<p data-p-id="55" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em"><br data-p-id="55"></p>
+<p data-p-id="56" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em">툭.</p>
+<p data-p-id="57" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em"><br data-p-id="57"></p>
+<p data-p-id="58" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em">“……!”</p>
+<p data-p-id="59" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em">잠깐.</p>
+<p data-p-id="60" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em">‘…소리가.’</p>
+<p data-p-id="61" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em">내 머리 위에서 나고 있다.</p>
+<p data-p-id="62" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em">나는 막힌 내 머리 위를 무심코 쳐다보았다.</p>
+<p data-p-id="63" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em">여기는 편의점 카운터 아래.</p>
+<p data-p-id="64" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em">그러니까 이 위에 있는 건….</p>
+<p data-p-id="65" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em">포스기.</p>
+<p data-p-id="66" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em"><br data-p-id="66"></p>
+<p data-p-id="67" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em">삑.</p>
+<p data-p-id="68" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em">삑삑삑삑삐삐삐삑삡삑삑.</p>
+<p data-p-id="69" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em"><br data-p-id="69"></p>
+<p data-p-id="70" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em">귀신이 계산대의 포스기를 누르고 있었다.</p>
+<p data-p-id="71" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em">그 이상한 리듬에 따라 녹음된 목소리가 편의점을 울린다.</p>
+<p data-p-id="72" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em"><br data-p-id="72"></p>
+<p data-p-id="73" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em">직원을 호출합니다… 직원을 호출, 직원을호직원을호출직직직직원을직원을호직원을호출합니다</p>
+<p data-p-id="74" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em"><br data-p-id="74"></p>
+<p data-p-id="75" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em">“…!!”</p>
+<p data-p-id="76" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em">알겠다.</p>
+<p data-p-id="77" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em">이거, 내가 밑에 있다는 걸 아는 거다.</p>
+<p data-p-id="78" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em">일부러 안 잡고 장난치는 거야.</p>
+<p data-p-id="79" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em">…아는 데도 분노보다는 식은땀이 등 뒤로 흘렀다.</p>
+<p data-p-id="80" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em">와 이거 진짜 미치겠다, 사람을 미치게 하네.</p>
+<p data-p-id="81" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em">‘나가자.’</p>
+<p data-p-id="82" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em">나가서 뛰어야 한다.</p>
+<p data-p-id="83" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em">하지만 발이 마음처럼 쉽고 가볍게 움직이질 않는다. 공포영화에서 귀신을 보고 주저앉아 죽는
+엑스트라와 하등 다를 게 없다.</p>
+<p data-p-id="84" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em">‘안 돼.’</p>
+<p data-p-id="85" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em">어차피 잡히는 건 똑같더라도 무기력이 학습되면 안 된다.</p>
+<p data-p-id="86" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em">결국 나는 어떻게든 억지로 계산대를 비집고 나왔다.</p>
+<p data-p-id="87" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em">그 순간.</p>
+<p data-p-id="88" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em"><br data-p-id="88"></p>
+<p data-p-id="89" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em">직원을 호출합니다.</p>
+<p data-p-id="90" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em"><br data-p-id="90"></p>
+<p data-p-id="91" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em">내얼굴앞에갑자기시퍼렇고퉁퉁불은얼굴이</p>
+<p data-p-id="92" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em">입이 찢어져라 웃는다.</p>
+<p data-p-id="93" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em"><br data-p-id="93"></p>
+<p data-p-id="94" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em">-잡았다</p>
+<p data-p-id="95" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em"><br data-p-id="95"></p>
+<div style="text-align: center; font-size: 18px !important; line-height: 1.6 !important" data-p-id="96" data-original-font-size="20" data-original-line-height="32">
+* * *</div>
+<p data-p-id="97" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em"><br data-p-id="97"></p>
+<p data-p-id="98" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em">재시작.</p>
+<p data-p-id="99" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em">‘…….’</p>
+<p data-p-id="100" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em">나는 아주 천천히 심호흡했다.</p>
+<p data-p-id="101" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em">심장이 너무 쿵쾅거려서 잠깐 머리가 아팠으나, 참았다.</p>
+<p data-p-id="102" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em">‘지나갔어.’</p>
+<p data-p-id="103" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em">온몸이 저리다.</p>
+<p data-p-id="104" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em">‘참자.’</p>
+<p data-p-id="105" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em">대신 어두운 편의점 전경을 바라봤다.</p>
+<p data-p-id="106" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em">이번에는 계산대로 가는 대신, 불빛이 나오는 음료 냉장고의 반대 방향으로 뛰었다.</p>
+<p data-p-id="107" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em">바로 편의점 출입구 방향.</p>
+<p data-p-id="108" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em">“…….”</p>
+<p data-p-id="109" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em">유리문 밖은 새카만 어둠이다.</p>
+<p data-p-id="110" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em">그래도 최대한 밖을 보려고 하자, 바깥쪽 유리문 옆에 달린 뭔가가 보였다.</p>
+<p data-p-id="111" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em">“…!”</p>
+<p data-p-id="112" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em">전자시계다.</p>
+<p data-p-id="113" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em"><br data-p-id="113"></p>
+<p data-p-id="114" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em">[12:00⼁04⼁04]</p>
+<p data-p-id="115" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em"><br data-p-id="115"></p>
+<p data-p-id="116" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em">4월 4일 12시.</p>
+<p data-p-id="117" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em">저게 이 괴담의 현재 설정 날짜인가.</p>
+<p data-p-id="118" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em">어둠에 적응된 눈이 유리문에 달린 차임벨도 구분해 냈다. 아마 저 문을 잡는 순간 종소리를
+들은 귀신이 그 이상한 발걸음으로 뛰어올 것이리라.</p>
+<p data-p-id="119" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em">‘그리고 애초에 열리지도 않겠지….’</p>
+<p data-p-id="120" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em">버텨야 하는 장소가 편의점으로 정해졌으니까. 제한이 걸렸을 거다.</p>
+<p data-p-id="121" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em">나는 유리문 밖에서 시선을 떼고, 근처 진열대에 반쯤 몸을 가렸다.</p>
+<p data-p-id="122" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em">그리고 벽에 등을 기댄 채 편의점 곳곳을 주시하며 생각을 이어 나갔다.</p>
+<p data-p-id="123" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em">관자놀이로 흘러내린 식은땀이 차갑다.</p>
+<p data-p-id="124" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em">‘내가 버텨야 하는 날짜는 사흘.’</p>
+<p data-p-id="125" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em">그럼 내 완료 시점쯤의 시간을 알려줄 만한 트리거는… 과연 뭐가 있을까.</p>
+<p data-p-id="126" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em">이 편의점에서 사흘 후에 일어날 일은…….</p>
+<p data-p-id="127" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em">‘물류?’</p>
+<p data-p-id="128" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em">나는 힐끔, 유리문 근처에 쌓인 박스를 보았다.</p>
+<p data-p-id="129" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em">새 물건이 입고되는 시간이라.</p>
+<p data-p-id="130" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em">‘사흘 후 날짜에 입고될 물건을 어떻게든 확인하고. 그 물건으로 어떻게든 위장해서 미리
+넣어보는 식으로 시간 암시를….’</p>
+<p data-p-id="131" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em">아니야. 그건 너무 비직관적이다.</p>
+<p data-p-id="132" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em">그렇게 복잡하고 자잘한 가공 단계만 거치는 게 통할 리가 없다.</p>
+<p data-p-id="133" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em">&lt;어둠탐사기록&gt;은 인터넷 괴담이다.</p>
+<p data-p-id="134" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em">‘그리고 인터넷 괴담은 직관적이야.’</p>
+<p data-p-id="135" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em">자질구레한 조건과 짜맞추기가 많아질수록 임팩트가 떨어지기에 인기를 끌 수 없다.</p>
+<p data-p-id="136" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em">‘좀 더 간단하고 딱 맞아떨어지는 느낌이 들어야 한다.’</p>
+<p data-p-id="137" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em">그렇다면….</p>
+<p data-p-id="138" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em"><br data-p-id="138"></p>
+<p data-p-id="139" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em">편의점에서 시간의 흐름을 가장 쉽게 느낄 수 있는 물건은?</p>
+<p data-p-id="140" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em"><br data-p-id="140"></p>
+<p data-p-id="141" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em">“…!”</p>
+<p data-p-id="142" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em">그래.</p>
+<p data-p-id="143" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em">나는 출입구 가장 가까이에 있는 진열대를 보았다. 음료 냉장고와는 또 다르게 생겼으나 냉기가
+뿜어져 나오는 진열대.</p>
+<p data-p-id="144" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em">하지만 기묘하게도 거기 진열된 건 몇 개 없다.</p>
+<p data-p-id="145" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em">유제품 음료나 커피 약간, 그리고… 도시락과 삼각김밥이다.</p>
+<p data-p-id="146" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em">빨리 상하는 식사류 음식.</p>
+<p data-p-id="147" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em">‘…유통기한!’</p>
+<p data-p-id="148" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em">당장 진열대로 향해서 도시락과 삼각김밥을 들어서 확인하기 시작했다.</p>
+<p data-p-id="149" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em">‘대부분 삼각김밥은 유통기한이 36시간에서 48시간이다.’</p>
+<p data-p-id="150" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em">아마 도시락도 비슷하겠지.</p>
+<p data-p-id="151" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em">하지만 기묘할 만큼 꽤 많은 도시락과 삼각김밥이 유통기한이 사흘 이상으로 길거나 아예 표기가
+엉망으로 지워진 채 있었다.</p>
+<p data-p-id="152" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em">나는 인내심을 가지고, 최대한 소리를 내지 않고 조심스럽게 물건의 뒷면과 앞면을 살폈다.
+</p>
+<p data-p-id="153" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em">그리고 결국….</p>
+<p data-p-id="154" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em">‘찾았다.’</p>
+<p data-p-id="155" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em">이 괴담에서 현 시각은 4월 4일 12시.</p>
+<p data-p-id="156" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em">4월 7일 12시에 유통기한이 끝나는 상품.</p>
+<p data-p-id="157" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em"><br data-p-id="157"></p>
+<p data-p-id="158" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em">[국물 함박 도시락]</p>
+<p data-p-id="159" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em"><br data-p-id="159"></p>
+<p data-p-id="160" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em">나는 그 도시락을 집어들었다.</p>
+<p data-p-id="161" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em">그리고 편의점을 가로질러 포스기로 다가갔다.</p>
+<p data-p-id="162" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em">‘윽.’</p>
+<p data-p-id="163" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em">계산대에 서서 호출 버튼을 미친 듯이 누르던 귀신의 잔상이 아른거렸다.</p>
+<p data-p-id="164" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em">그러나 기분 탓이다. 아직 이쪽에는 나타나지 않았다….</p>
+<p data-p-id="165" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em">‘침착하게.’</p>
+<p data-p-id="166" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em">포스기에서 기기 설정을 누른 후, ‘날짜 및 시간 변경’을 선택한다… 됐다, 있다! 나는
+안도의 한숨을 참으며 화면을 들여다보았다.</p>
+<p data-p-id="167" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em">‘설정 시간은….’</p>
+<p data-p-id="168" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em">시작 시점인 4월 4일 자정에서 정확히 이틀하고도 23시간 59분 후.</p>
+<p data-p-id="169" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em"><br data-p-id="169"></p>
+<p data-p-id="170" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em">[4월 7일 오후 11:59]</p>
+<p data-p-id="171" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em"><br data-p-id="171"></p>
+<p data-p-id="172" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em">‘제발 좀!’</p>
+<p data-p-id="173" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em">초조한 심정으로 빌었다.</p>
+<p data-p-id="174" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em">변경 버튼을 누르고, 확인하면…….</p>
+<p data-p-id="175" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em"><br data-p-id="175"></p>
+<p data-p-id="176" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em">[변경 완료]</p>
+<p data-p-id="177" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em"><br data-p-id="177"></p>
+<p data-p-id="178" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em">“…!!”</p>
+<p data-p-id="179" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em">됐다!</p>
+<p data-p-id="180" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em">‘이거 가끔 설정 변경 못 하는 경우도 많은데 그나마 불행 중 다행, 아니, 정말로
+다행이다.’</p>
+<p data-p-id="181" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em">기쁨과 초조함으로 손이 떨렸으나 다잡았다.</p>
+<p data-p-id="182" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em">이제 거의 다 왔다.</p>
+<p data-p-id="183" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em">챙겨온 식품을 들어서 폐기 임박으로 등록하기만 하면 된….</p>
+<p data-p-id="184" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em"><br data-p-id="184"></p>
+<p data-p-id="185" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em">삐리리릭!</p>
+<p data-p-id="186" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em"><br data-p-id="186"></p>
+<p data-p-id="187" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em">“…….”</p>
+<p data-p-id="188" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em"><br data-p-id="188"></p>
+<p data-p-id="189" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em">[폐기 알람]</p>
+<p data-p-id="190" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em">[유통기한이 임박한 상품이 있습니다!]</p>
+<p data-p-id="191" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em"><br data-p-id="191"></p>
+<p data-p-id="192" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em">포스기가 명랑한 말씨로 외쳤다.</p>
+<p data-p-id="193" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em">어두운 편의점에서 그 녹음된 안내 목소리가 홀로 울린다.</p>
+<p data-p-id="194" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em"><br data-p-id="194"></p>
+<p data-p-id="195" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em">삐리리릭! 삐리리릭!</p>
+<p data-p-id="196" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em"><br data-p-id="196"></p>
+<p data-p-id="197" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em">“…….”</p>
+<p data-p-id="198" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em">나는 굳은 채 고개를 돌렸다.</p>
+<p data-p-id="199" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em"><br data-p-id="199"></p>
+<p data-p-id="200" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em">저 멀리서</p>
+<p data-p-id="201" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em">눈이 마주쳤다.</p>
+<p data-p-id="202" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em"><br data-p-id="202"></p>
+<p data-p-id="203" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em">달려온다.</p>
+<p data-p-id="204" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em"><br data-p-id="204"></p>
+<p data-p-id="205" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em">“이…!”</p>
+<p data-p-id="206" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em">보지 말고 화면을 봐라. 화면만!</p>
+<p data-p-id="207" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em">제발 좀, 제발! 빨리!</p>
+<p data-p-id="208" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em">삑.</p>
+<p data-p-id="209" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em">내 손을 세 번의 헛방질 끝에 바코드를 찍었다.</p>
+<p data-p-id="210" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em"><br data-p-id="210"></p>
+<p data-p-id="211" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em">[등록하시겠습니까?]</p>
+<p data-p-id="212" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em"><br data-p-id="212"></p>
+<p data-p-id="213" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em">예,를 연타….</p>
+<p data-p-id="214" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em">발소리가 너무 빨리 가까워졌다.</p>
+<p data-p-id="215" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em">티티티티틱하는 이상한 소리가 계속 가까워지는데 참고, 나는 계속 손을 움직여서….</p>
+<p data-p-id="216" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em"><br data-p-id="216"></p>
+<p data-p-id="217" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em">[폐기를 등록했습니다.]</p>
+<p data-p-id="218" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em"><br data-p-id="218"></p>
+<p data-p-id="219" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em">미친 듯이 이상한 발걸음으로 달려오던 귀신의 발이 계산대 바로 앞까지 오며 진동이 느껴지는
+순간.</p>
+<p data-p-id="220" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em"><br data-p-id="220"></p>
+<p data-p-id="221" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em">[완료]</p>
+<p data-p-id="222" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em"><br data-p-id="222"></p>
+<p data-p-id="223" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em">사라졌다.</p>
+<p data-p-id="224" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em"><br data-p-id="224"></p>
+<p data-p-id="225" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em">“…….”</p>
+<p data-p-id="226" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em"><br data-p-id="226"></p>
+<p data-p-id="227" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em">픽.</p>
+<p data-p-id="228" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em">전등이 켜졌다.</p>
+<p data-p-id="229" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em">눈이 아프도록 밝아진 편의점 안, 이제 그리 눈에 띄지 않는 포스기의 화면이 간단명료한
+설명을 보여준다.</p>
+<p data-p-id="230" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em"><br data-p-id="230"></p>
+<p data-p-id="231" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em">[등록 완료]</p>
+<p data-p-id="232" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em"><br data-p-id="232"></p>
+<p data-p-id="233" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em">지지지직, 마감영수증이 프린트된다.</p>
+<p data-p-id="234" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em">그 백색소음 속에서 실감했다.</p>
+<p data-p-id="235" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em">‘됐어.’</p>
+<p data-p-id="236" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em">내가 성공했다는 걸.</p>
+<p data-p-id="237" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em">“후.”</p>
+<p data-p-id="238" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em">계산대에 몸을 기대고 고개를 숙였다. 다리가 후들거렸다.</p>
+<p data-p-id="239" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em">‘숨이 안 쉬어진다….’</p>
+<p data-p-id="240" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em">사람은 진짜 빛에 의존하는구나!</p>
+<p data-p-id="241" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em">그래도 밝아졌다는 것만으로도 심신에 안정이 찾아왔다.</p>
+<p data-p-id="242" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em">‘이제 문으로 나가면 되는….’</p>
+<p data-p-id="243" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em"><br data-p-id="243"></p>
+<p data-p-id="244" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em">달캉!</p>
+<p data-p-id="245" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em"><br data-p-id="245"></p>
+<p data-p-id="246" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em">포스기 밑 현금보관함이 자동으로 열렸다.</p>
+<p data-p-id="247" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em">‘어?’</p>
+<p data-p-id="248" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em">안에 든 건 두툼한 갈색 봉투 하나다.</p>
+<p data-p-id="249" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em">“이건….”</p>
+<p data-p-id="250" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em">나는 봉투를 잡아 들어 열었다.</p>
+<p data-p-id="251" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em">두텁고 빳빳한 황금빛 지폐 네 묶음이 보였다.</p>
+<p data-p-id="252" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em">“…!?”</p>
+<p data-p-id="253" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em">오만원권 다발!</p>
+<p data-p-id="254" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em">‘배, 백 장씩 네 묶음인 건가?’</p>
+<p data-p-id="255" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em">그럼 총 이천만 원이었다.</p>
+<p data-p-id="256" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em">이렇게 큰돈을 현금으로 만져본 건 처음이었다. 근데 이게 왜 편의점 현금보관함에….</p>
+<p data-p-id="257" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em">아.</p>
+<p data-p-id="258" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em">‘상금!’</p>
+<p data-p-id="259" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em"><br data-p-id="259"></p>
+<p data-p-id="260" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em"><span class="f1" data-p-id="260" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important">======================</span></p>
+<p style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: right; text-indent: 0.5em" data-p-id="261" data-original-font-size="20" data-original-line-height="32"><span class="f109" data-p-id="261" data-original-font-size="18" data-original-line-height="32" style="font-size: 16.2px !important">어둠탐사기록 /
+괴담</span></p>
+<p style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: right; text-indent: 0.5em" data-p-id="262" data-original-font-size="20" data-original-line-height="32"><span class="f109" data-p-id="262" data-original-font-size="18" data-original-line-height="32" style="font-size: 16.2px !important">/ 선택해 줘</span>
+</p>
+<p class="s12" data-p-id="263" data-original-font-size="24" data-original-line-height="38" style="font-size: 21.6px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em"><span class="f1" data-p-id="263" data-original-font-size="24" data-original-line-height="38" style="font-size: 21.6px !important">여담</span></p>
+<p data-p-id="264" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em"><span class="f1" data-p-id="264" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important">클리어 시 정말로 <span class="fp2" data-p-id="264" data-original-font-size="20" data-original-line-height="32" style="color: rgb(255, 0, 0) !important; font-size: 18px !important">돈</span>을 준다. <del data-p-id="264"><span class="f1" data-p-id="264" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important">그럼 그냥 사람
+놀래키는 걸 좋아하는 착한 친구 아닌가</span></del></span></p>
+<p data-p-id="265" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em"><span class="f1" data-p-id="265" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important">======================</span></p>
+<p data-p-id="266" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em"><br data-p-id="266"></p>
+<p data-p-id="267" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em">오.</p>
+<p data-p-id="268" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em"><br data-p-id="268"></p>
+<div style="text-align: center; font-size: 18px !important; line-height: 1.6 !important" data-p-id="269" data-original-font-size="20" data-original-line-height="32">
+* * *</div>
+<p data-p-id="270" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em"><br data-p-id="270"></p>
+<p data-p-id="271" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em">“얼마나 걸릴까요?”</p>
+<p data-p-id="272" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em">“사흘 채우면 바로 나올 수 있을 것 같은데.”</p>
+<p data-p-id="273" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em">“한 번에 성공? 와, 평가 후하다. 후해.”</p>
+<p data-p-id="274" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em">&lt;백일몽 주식회사&gt;의 현장탐사팀 D조.</p>
+<p data-p-id="275" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em">두 직원은 잠시 창고 옆 계단을 통해 옥상에 올라와 담배를 피우는 중이었다.</p>
+<p data-p-id="276" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em">방금 신입사원을 어둠에 넣고 배웅한 참이다.</p>
+<p data-p-id="277" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em">해도해도 별로 익숙해지는 일은 아니었다. 괴현상에 신입을 밀어 넣는 건.</p>
+<p data-p-id="278" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em">그래도 보통 이 &lt;선택해 줘&gt;라는 어둠은 설정 시간이 짧을수록 하드코어하고 길수록
+느슨하니, 사흘이 당첨된 신입은 그리 빡세진 않을 것이다.</p>
+<p data-p-id="279" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em">‘2박 3일 담력 시험하는 수준이겠지.’</p>
+<p data-p-id="280" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em">물론 가혹하다. 가혹하지 않다는 건 아니다.</p>
+<p data-p-id="281" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em">그러나 두 직원의 머릿속에는 공통 명제가 있다.</p>
+<p data-p-id="282" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em"><br data-p-id="282"></p>
+<p data-p-id="283" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em">-이것도 못 버티면 금방 죽는다.</p>
+<p data-p-id="284" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em"><br data-p-id="284"></p>
+<p data-p-id="285" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em">그럼 차라리 퇴사하라는 거다.</p>
+<p data-p-id="286" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em">실제로 이 신고식 때문에 나간 신입이 꽤 있어서 D조는 인사팀 간부들에게 자주 눈칫밥을
+먹었지만, 그래도 느물거리며 어떻게든 비비고 있었다.</p>
+<p data-p-id="287" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em">직장 동료, 그것도 같은 조 신입이 죽는 꼴을 바로 옆에서 보는 건 정신 건강에 정말 해로운
+짓이었으니까….</p>
+<p data-p-id="288" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em">다만, 이번에는 조금 느낌이 달랐다.</p>
+<p data-p-id="289" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em">묘한 기대감.</p>
+<p data-p-id="290" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em">“이번 신입 말인데.”</p>
+<p data-p-id="291" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em">“예에.”</p>
+<p data-p-id="292" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em">“범상치 않았지.”</p>
+<p data-p-id="293" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em">“범상치 않았죠.”</p>
+<p data-p-id="294" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em">D조에 새롭게 발령받은 수석 신입사원, 김솔음.</p>
+<p data-p-id="295" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em">“첫 출근에 그러는 애 처음 봤어.”</p>
+<p data-p-id="296" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em">보통 신입사원들은 자기가 죽을 뻔했던 그 괴현상 속에 꾸준히 투입되는 게 ‘업무’라는 걸
+깨닫는 순간 기겁하거나 혼비백산한다. 그게 당연했다.</p>
+<p data-p-id="297" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em">하지만 김솔음의 경우엔… 기묘할 정도로 침착했다.</p>
+<p data-p-id="298" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em">“별로 긴장한 것 같지도 않던데.”</p>
+<p data-p-id="299" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em">“예에. 안 놀라더라고요. 커피도 잘 마시고.”</p>
+<p data-p-id="300" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em">한순간도 평정심을 잃거나, 화장실에 처박혀서 울거나, 도망치려 들지 않았다.</p>
+<p data-p-id="301" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em">물론 김솔음은 이미 모든 걸 스포일러 당하고 사흘간 만사를 포기하고 마음의 준비를 끝냈을
+뿐이지만.</p>
+<p data-p-id="302" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em">모르는 사람 눈에는 그저 미친 멘탈의 신입으로 보인 것이다!</p>
+<p data-p-id="303" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em">“대리님 맘에 들었나 보네.”</p>
+<p data-p-id="304" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em">“어. 아주 괜찮지.”</p>
+<p data-p-id="305" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em">강심장은 언제나 환영이었다.</p>
+<p data-p-id="306" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em">각종 끔찍하거나 기이하거나 섬뜩한 도시전설과 마주해야 하는 부서다. 겁쟁이는 곤란했다.
+</p>
+<p data-p-id="307" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em">‘뭐, 애초에 그 데스 서바이벌에서 겁쟁이가 합격할 리도 없다만….’</p>
+<p data-p-id="308" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em">&nbsp;있었다!</p>
+<p data-p-id="309" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em">물론 알 리 없는 상사들은 그저 고개를 끄덕이며 ‘이번 신입 괜찮은데’를 연발 중인 것이다.
+</p>
+<p data-p-id="310" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em">다만 약간 아쉬운 점도 있긴 했다.</p>
+<p data-p-id="311" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em">“근데 애가 요령 부리는 타입은 아닌 것 같은데, 왜 필기를 안 할까?”</p>
+<p data-p-id="312" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em">“첫 직장이라 잘 모를 수도 있죠. 그건 알려주면 돼.”</p>
+<p data-p-id="313" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em">이렇게 목숨이 왔다갔다하는 직업에서는 정보와 매뉴얼은 필수라며, 둘은 고개를 끄덕였다.
+</p>
+<p data-p-id="314" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em">“알려주면 적어놔야지. 그래야 다시 읽어보면서 제대로 아는 거잖아.”</p>
+<p data-p-id="315" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em">“맞아요. 미리 알고 있던 것도 아닐 텐데.”</p>
+<p data-p-id="316" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em">미리 알고 있었다!</p>
+<p data-p-id="317" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em">역시 짐작도 못 한 두 사람은 신입 받은 팀다운 대화를 계속 나누다가, 슬슬 복귀하자고 말을
+정리했다.</p>
+<p data-p-id="318" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em">“상황보고서 써야지.”</p>
+<p data-p-id="319" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em">“하, 그놈의 보지도 않는 보고서는 매번….”</p>
+<p data-p-id="320" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em">어차피 신입은 빨라도 사흘 후에야 나올 것이다.</p>
+<p data-p-id="321" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em">그래도 내부에 식량과 잠자리도 있는 괴담이니, 장기전으로 가도 무리 없겠지.</p>
+<p data-p-id="322" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em">둘은 고개를 끄덕이고, 신입을 빨아들인 인터넷 글이 적혀 있던 패드를 챙겨 들었다.</p>
+<p data-p-id="323" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em">“그럼 이제 우린 서류 보러…?!”</p>
+<p data-p-id="324" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em"><br data-p-id="324"></p>
+<p data-p-id="325" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em">틱.</p>
+<p data-p-id="326" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em"><br data-p-id="326"></p>
+<p data-p-id="327" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em">그 순간 패드가 사람을 뱉었다.</p>
+<p data-p-id="328" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em">사흘 뒤에 나와야 하는 신입사원을.</p>
+<p data-p-id="329" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em">“…!?”</p>
+<p data-p-id="330" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em">신입사원, 김솔음은 1시간 30분 전과 별다를 바 없이 깨끗한 정장을 툭툭 털며 바닥에서
+일어났다.</p>
+<p data-p-id="331" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em">그리고 한 손에 뭔가를 들어 올렸다.</p>
+<p data-p-id="332" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em">눈금이 꽉 찬 ‘꿈결 수집기’다.</p>
+<p data-p-id="333" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em">“채워왔습니다.”</p>
+<p data-p-id="334" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em">“…?!?!”</p>
+<p data-p-id="335" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em">클리어까지 소요 시간 1시간 24분.</p>
+<p data-p-id="336" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em">말도 안 되는 업적을 저지른 신입은 그저 무덤덤한 태도로 상사들을 보고 있었다.</p>
+<p data-p-id="337" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em"><br data-p-id="337"></p>
+<p data-p-id="338" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em">‘심장마비로 죽는 줄 알았네.’</p>
+<p data-p-id="339" data-original-font-size="20" data-original-line-height="32" style="font-size: 18px !important; line-height: 1.6 !important; margin-bottom: 0.7em; margin-top: 0.7em; text-align: justify; text-indent: 0.5em">물론 중도하차 안 되는 귀신의 집 벽을 뚫고 탈출할 만큼 절박한 쫄보가 진이 빠졌을
+뿐이지만!</p>

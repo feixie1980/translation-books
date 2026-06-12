@@ -22,6 +22,25 @@ import {
 import { loadContext, buildSystemPrompt } from "./context.js";
 import { getClient, call } from "./anthropic.js";
 
+// ---- progress line: live-updating on a TTY, plain log lines otherwise ------
+const isTTY = Boolean(process.stdout.isTTY);
+let progressActive = false;
+function progress(msg: string): void {
+  if (isTTY) {
+    process.stdout.write(`\r\x1b[2K  ${msg}`); // carriage return + clear line
+    progressActive = true;
+  } else {
+    log(`  ${msg}`);
+  }
+}
+/** Clear the in-progress line so the next log() prints a clean summary. */
+function progressEnd(): void {
+  if (isTTY && progressActive) {
+    process.stdout.write("\r\x1b[2K");
+    progressActive = false;
+  }
+}
+
 export interface TranslateOpts {
   only?: string;
   model?: string;
@@ -47,26 +66,36 @@ export async function runTranslate(bookDir: string, opts: TranslateOpts): Promis
     return;
   }
 
+  // Decide up front which chapters need work, so progress can show "i/total".
+  const todo = episodes.filter(
+    (ep) => opts.retranslate || !fs.existsSync(zhPath(bookDir, ep)),
+  );
+  const skipped = episodes.length - todo.length;
+  if (todo.length === 0) {
+    log(`Nothing to translate: all ${episodes.length} chapter(s) already done.`);
+    return;
+  }
+  log(`Translating ${todo.length} chapter(s) with ${model}${skipped ? `, ${skipped} already done` : ""} ...`);
+
   const client = getClient();
   let totalIn = 0;
   let totalOut = 0;
   let translated = 0;
-  let skipped = 0;
 
-  for (const ep of episodes) {
+  for (let c = 0; c < todo.length; c++) {
+    const ep = todo[c];
     const out = zhPath(bookDir, ep);
-    if (fs.existsSync(out) && !opts.retranslate) {
-      skipped++;
-      continue;
-    }
     const paras = splitParagraphs(fs.readFileSync(koPath(bookDir, ep), "utf-8"));
-    log(`[Ch.${ep}] translating ${paras.length} paragraphs with ${model} ...`);
+    const batches = [...batchByChars(paras, budget)];
+    const prefix = `[${c + 1}/${todo.length}] Ch.${ep}`;
 
     const result = new Array<string>(paras.length);
     let chIn = 0;
     let chOut = 0;
+    let doneParas = 0;
 
-    for (const batch of batchByChars(paras, budget)) {
+    for (let b = 0; b < batches.length; b++) {
+      const batch = batches[b];
       const numbered = batch.items
         .map((p, i) => `${batch.start + i + 1}\t${p}`)
         .join("\n");
@@ -76,15 +105,19 @@ export async function runTranslate(bookDir: string, opts: TranslateOpts): Promis
         `same numbering, no blank lines, no commentary:\n\n` +
         numbered;
 
+      progress(`${prefix}: ${doneParas}/${paras.length} paras (batch ${b + 1}/${batches.length}) ...`);
       const { text, inTok, outTok } = await call(client, model, system, user);
       chIn += inTok;
       chOut += outTok;
+      doneParas += batch.items.length;
 
       for (const line of text.split(/\r?\n/)) {
         const m = line.match(/^\s*(\d+)\s*\t\s*(.*)$/) || line.match(/^\s*(\d+)[.):]\s*(.*)$/);
         if (m) result[parseInt(m[1], 10) - 1] = m[2].trim();
       }
+      progress(`${prefix}: ${doneParas}/${paras.length} paras (batch ${b + 1}/${batches.length})`);
     }
+    progressEnd();
 
     // Fall back to source for any paragraph the model dropped.
     let missing = 0;

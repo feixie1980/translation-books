@@ -4,8 +4,8 @@
   "format": "html",
   "koChars": 5258,
   "paragraphs": 305,
-  "model": "claude-opus-4-8",
-  "tokensIn": 9857,
-  "tokensOut": 6431,
-  "translatedAt": "2026-06-12T05:54:30.319Z"
+  "model": "claude-sonnet-4-6",
+  "tokensIn": 11569,
+  "tokensOut": 6513,
+  "translatedAt": "2026-06-12T06:39:51.251Z"
 }
