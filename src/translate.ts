@@ -178,7 +178,9 @@ export async function runTranslate(bookDir: string, opts: TranslateOpts): Promis
         missing++;
       }
     }
-    fs.writeFileSync(out, result.join("\n") + "\n");
+    // One blank line between paragraphs for readability. (splitParagraphs drops
+    // blank lines, so extract/build read this back identically.)
+    fs.writeFileSync(out, result.join("\n\n") + "\n");
 
     const prev = readMeta(bookDir, ep) ?? ({} as any);
     writeMeta(bookDir, {
