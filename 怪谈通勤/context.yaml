@@ -1,0 +1,98 @@
+# Translation context for this book.
+# `style`   : free-form guidance injected into the system prompt.
+# `glossary`: ko (source term) -> zh (fixed Chinese rendering) [+ note].
+#            Edit zh values to lock in the rendering you want.
+
+style: >-
+  Genre: Korean horror/thriller web novel ("괴담"). Narration is first-person, fast-paced, and
+  colloquial.
+
+  - Translate into natural, fluent, idiomatic Simplified Chinese web-novel prose.
+
+  - Preserve the original paragraph breaks exactly (one input paragraph -> one output paragraph).
+
+  - Keep onomatopoeia and repeated sound effects (e.g. 덜컹덜컹, 쾅) as vivid Chinese equivalents; do not
+  collapse or drop repetition.
+
+  - Keep dialogue punctuation natural for Chinese ("..." for speech is fine).
+
+  - Do not add translator notes, summaries, or commentary.
+glossary:
+  - ko: FLOWER GOLDEN
+    zh: FLOWER GOLDEN
+    note: term
+  - ko: 김솔음
+    zh: 金率音
+    note: character
+  - ko: 류재관
+    zh: 柳在宽
+    note: character
+  - ko: 리조트
+    zh: 度假村
+    note: place
+  - ko: 마스코트
+    zh: 吉祥物
+    note: term
+  - ko: 무명찬란교
+    zh: 无名璀璨教
+    note: org
+  - ko: 백일몽 주식회사
+    zh: 白日梦株式会社
+    note: org
+  - ko: 백일몽주식회사
+    zh: 白日梦株式会社
+    note: org
+  - ko: 브라운
+    zh: 布朗
+    note: character
+  - ko: 세광특별시
+    zh: 世光特别市
+    note: place
+  - ko: 슬픔역
+    zh: 悲伤站
+    note: place
+  - ko: 심연교통공사
+    zh: 深渊交通公社
+    note: term
+  - ko: 심연교통공사에 어서오세요
+    zh: 欢迎来到深渊交通公社
+    note: term
+  - ko: 어둠
+    zh: 黑暗
+    note: term
+  - ko: 어둠수로
+    zh: 黑暗水路
+    note: term
+  - ko: 어둠탐사기록
+    zh: 黑暗探查记录
+    note: term
+  - ko: 요원
+    zh: 要员
+    note: term
+  - ko: 은하제
+    zh: 殷河齐
+    note: character
+  - ko: 이자헌
+    zh: 李子轩
+    note: character
+  - ko: 재난관리국
+    zh: 灾难管理局
+    note: org
+  - ko: "종말예언 : 어둠탐사기록"
+    zh: 末日预言：黑暗探查记录
+    note: term
+  - ko: 착한 친구
+    zh: 善良的朋友
+    note: term
+  - ko: 초자연재난관리국
+    zh: 超自然灾难管理局
+    note: org
+  - ko: 플라워 골든
+    zh: 黄金花
+    note: term
+  - ko: 플라워 골든 마스코트
+    zh: 黄金花吉祥物
+    note: term
+  - ko: 현장탐사팀
+    zh: 现场探查队
+    note: org

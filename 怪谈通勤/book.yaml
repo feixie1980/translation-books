@@ -1,0 +1,7 @@
+# Per-book config. All fields optional; sensible defaults shown.
+title: 怪谈通勤
+author: 백덕수
+sourceLang: Korean
+targetLang: Simplified Chinese
+# {n} is replaced with the chapter's episode number.
+titleFormat: 第{n}话

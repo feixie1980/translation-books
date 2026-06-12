@@ -141,3 +141,22 @@ dist
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
 .vite/
+
+# dependencies / tooling
+node_modules/
+*.log
+.DS_Store
+
+# machine-local Claude Code settings (keep project settings.json if any)
+.claude/settings.local.json
+
+# Puppeteer's downloaded Chromium cache (if it lands in-repo)
+.cache/
+
+# We DO want to source-control translation outputs:
+#   <book>/work/chapters/*.ko.txt   (normalized source)
+#   <book>/work/chapters/*.zh.txt   (translations)
+#   <book>/work/chapters/*.meta.json
+#   <book>/out/*.epub  <book>/out/*.pdf
+#   <book>/context.yaml  <book>/book.yaml
+# so they are intentionally NOT ignored.
