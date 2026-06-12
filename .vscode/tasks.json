@@ -1,0 +1,50 @@
+{
+  "version": "2.0.0",
+  "inputs": [
+    {
+      "id": "book",
+      "type": "promptString",
+      "description": "Book folder under works/",
+      "default": "works/怪谈通勤"
+    }
+  ],
+  "tasks": [
+    {
+      "label": "typecheck",
+      "type": "shell",
+      "command": "pnpm typecheck",
+      "problemMatcher": ["$tsc"],
+      "group": "build"
+    },
+    {
+      "label": "extract",
+      "type": "shell",
+      "command": "pnpm book extract '${input:book}'",
+      "problemMatcher": []
+    },
+    {
+      "label": "glossary",
+      "type": "shell",
+      "command": "pnpm book glossary '${input:book}'",
+      "problemMatcher": []
+    },
+    {
+      "label": "translate",
+      "type": "shell",
+      "command": "pnpm book translate '${input:book}'",
+      "problemMatcher": []
+    },
+    {
+      "label": "build (epub+pdf, per-chapter)",
+      "type": "shell",
+      "command": "pnpm book build '${input:book}' --per-chapter",
+      "problemMatcher": []
+    },
+    {
+      "label": "run (full pipeline)",
+      "type": "shell",
+      "command": "pnpm book run '${input:book}' --per-chapter",
+      "problemMatcher": []
+    }
+  ]
+}

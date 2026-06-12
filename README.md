@@ -3,25 +3,26 @@
 Translate web-novel raws (currently **Korean → Simplified Chinese**) with the
 Claude API and build **epub** / **pdf** with a table of contents.
 
-Each book is a subfolder of this repo. Source chapters live in `<book>/Raws/`
+Each book is a subfolder of `works/`. Source chapters live in `<book>/Raws/`
 (one chapter per `.docx` or `.html` file). Outputs and intermediate files are
 source-controlled alongside the raws.
 
 ## Layout
 
 ```
-<book>/
-  Raws/                 # source: "Ch. 12.docx", "360.html", … (one chapter per file)
-  book.yaml             # optional: title, author, langs, title format
-  context.yaml          # style + glossary (auto-seeded; edit to pin renderings)
-  work/chapters/        # intermediate, cached, git-tracked:
-    0012.ko.txt         #   normalized Korean source
-    0012.zh.txt         #   Chinese translation
-    0012.meta.json      #   per-chapter metadata (model, tokens, …)
-  out/
-    <title>.epub
-    <title>.pdf
-    chapters/           # with --per-chapter
+works/
+  <book>/                 # e.g. works/怪谈通勤
+    Raws/                 # source: "Ch. 12.docx", "360.html", … (one chapter per file)
+    book.yaml             # optional: title, author, langs, title format
+    context.yaml          # style + glossary (auto-seeded; edit to pin renderings)
+    work/chapters/        # intermediate, cached, git-tracked:
+      0012.ko.txt         #   normalized Korean source
+      0012.zh.txt         #   Chinese translation
+      0012.meta.json      #   per-chapter metadata (model, tokens, …)
+    out/
+      <title>.epub
+      <title>.pdf
+      chapters/           # with --per-chapter
 ```
 
 Chapters are identified by **episode number**, parsed from the filename
@@ -39,22 +40,22 @@ export ANTHROPIC_API_KEY=sk-ant-...            # for glossary + translate
 
 ```sh
 # 1. Raws -> normalized text  (no API)
-pnpm book extract 怪谈通勤
-pnpm book extract 怪谈通勤 --only 1,2,360      # subset; --force to redo
+pnpm book extract works/怪谈通勤
+pnpm book extract works/怪谈通勤 --only 1,2,360      # subset; --force to redo
 
 # 2. Auto-seed the glossary from a few chapters (edit context.yaml after)
-pnpm book glossary 怪谈通勤 --chapters 5
+pnpm book glossary works/怪谈通勤 --chapters 5
 
 # 3. Translate KO -> ZH  (skips chapters already translated)
-pnpm book translate 怪谈通勤
-pnpm book translate 怪谈通勤 --only 360 --model claude-opus-4-8 --retranslate
+pnpm book translate works/怪谈通勤
+pnpm book translate works/怪谈通勤 --only 360 --model claude-opus-4-8 --retranslate
 
 # 4. Build epub/pdf with a TOC of translated chapter titles
-pnpm book build 怪谈通勤 --format epub,pdf
-pnpm book build 怪谈通勤 --per-chapter         # also one file per chapter
+pnpm book build works/怪谈通勤 --format epub,pdf
+pnpm book build works/怪谈通勤 --per-chapter         # also one file per chapter
 
 # Or the whole pipeline at once
-pnpm book run 怪谈通勤
+pnpm book run works/怪谈通勤
 ```
 
 ## Defaults

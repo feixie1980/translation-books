@@ -1,0 +1,25 @@
+{
+  "folders": [
+    {
+      "name": "translation-books",
+      "path": "."
+    }
+  ],
+  "settings": {
+    "typescript.tsdk": "node_modules/typescript/lib",
+    "typescript.enablePromptUseWorkspaceTsdk": true,
+    "files.eol": "\n",
+    "files.exclude": {
+      "**/.DS_Store": true
+    },
+    "search.exclude": {
+      "**/node_modules": true,
+      "works/**/Raws": true,
+      "works/**/out": true,
+      "pnpm-lock.yaml": true
+    }
+  },
+  "extensions": {
+    "recommendations": ["redhat.vscode-yaml"]
+  }
+}
