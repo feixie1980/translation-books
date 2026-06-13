@@ -18,8 +18,8 @@ works/
     book.yaml             # optional: title, author, langs, title format
     context.yaml          # style + glossary (auto-seeded; edit to pin renderings)
     work/chapters/        # intermediate, cached, git-tracked:
-      0012.ko.txt         #   normalized Korean source
-      0012.zh.txt         #   Chinese translation
+      0012.ko.txt         #   normalized source     (.ko/.zh are fixed labels for
+      0012.zh.txt         #   translation            source/target — any language)
       0012.meta.json      #   per-chapter metadata (model, tokens, …)
     out/
       <title>.epub
@@ -49,7 +49,7 @@ pnpm book extract works/怪谈通勤 --only 1,2,360      # subset; --force to re
 pnpm book glossary works/怪谈通勤 --chapters 5
 pnpm book glossary works/怪谈通勤 --only 100-110     # grow it from a later arc
 
-# 3. Translate KO -> ZH  (skips chapters already translated)
+# 3. Translate source -> target  (skips chapters already translated)
 pnpm book translate works/怪谈通勤
 pnpm book translate works/怪谈通勤 --only 360 --model claude-opus-4-8 --retranslate
 
@@ -57,9 +57,40 @@ pnpm book translate works/怪谈通勤 --only 360 --model claude-opus-4-8 --retr
 pnpm book build works/怪谈通勤 --format epub,pdf
 pnpm book build works/怪谈通勤 --per-chapter         # also one file per chapter
 
-# Or the whole pipeline at once
+# Or the whole pipeline at once (first run only — see note below)
 pnpm book run works/怪谈通勤
 ```
+
+## Recommended workflow (translating in batches)
+
+For a long book, translate in batches (e.g. 20 chapters at a time) and keep the
+glossary current as new names and concepts appear. **Order matters:** `translate`
+loads `context.yaml` once at the start of a run, so a term must be pinned *before*
+you translate the chapter it appears in — always run `glossary` (and review it)
+before `translate` for each batch.
+
+```sh
+# Once, up front — extract everything (no API, free; lets glossary scan any range)
+pnpm book extract works/伪像报告
+
+# Then per 20-chapter batch (1-20, then 21-40, …):
+pnpm book glossary  works/伪像报告 --only 1-20    # 1. pin this batch's new names first
+#   2. REVIEW works/伪像报告/context.yaml — resolve reported conflicts and fix any
+#      renderings that fight the style guide. Your edits persist across batches.
+pnpm book translate works/伪像报告 --only 1-20    # 3. translate with the current glossary
+
+pnpm book build works/伪像报告                    # build at the end, or periodically
+```
+
+The review step is what makes this worthwhile: the glossary *proposes* renderings;
+you lock them in. Later batches reuse your pinned terms (the model is shown them and
+asked to return only new ones), so a name pinned in batch 1 stays consistent through
+the whole book.
+
+> **Don't use `pnpm book run` for batches.** It auto-seeds the glossary *only when
+> `context.yaml` is missing*, so from batch 2 onward it would skip the glossary
+> update. Use the explicit `glossary → review → translate` loop above instead;
+> `run` is for a quick first pass on a fresh book.
 
 ### Splitting a single .txt into chapters
 
@@ -93,7 +124,7 @@ output already exists (re-run freely; use `--force`/`--retranslate` to redo).
    src/extract.ts    │          src/glossary.ts src/translate.ts  src/build.ts
         │            │               │              │                  │
    src/sources.ts    │          src/anthropic.ts (Claude API client + prompt cache)
-   (docx/html parse) │          src/context.ts   (style + glossary <-> context.yaml)
+   (docx/html/txt)   │          src/context.ts   (style + glossary <-> context.yaml)
                      │
               src/util.ts  (config, chapter discovery, paths, cost — used by all)
 ```
@@ -103,14 +134,14 @@ output already exists (re-run freely; use `--force`/`--retranslate` to redo).
 | File | Responsibility |
 |------|----------------|
 | **`cli.ts`** | Entry point. Defines the `extract` / `glossary` / `translate` / `build` / `run` commands and their flags with `commander`, then calls the matching `runX()`. `run` chains all stages (auto-seeding the glossary if `context.yaml` is missing). |
-| **`util.ts`** | Shared foundation used by every stage: loads `book.yaml` (`loadBookConfig`), discovers source chapters and parses their episode number from the filename (`discoverRawChapters`, `episodeFromFilename`), computes all on-disk paths (`koPath`/`zhPath`/`metaPath`/`outDir`), parses the `--only` filter (`parseOnly`), splits text into paragraphs (`splitParagraphs`), reads/writes per-chapter metadata, and reports token cost (`PRICING`, `estimateCost`). |
+| **`util.ts`** | Shared foundation used by every stage: loads `book.yaml` (`loadBookConfig`, including `sourceLang`/`targetLang`, title format, and output `lang`/`tocTitle`), discovers source chapters and parses their episode number from the filename (`discoverRawChapters`, `episodeFromFilename`), computes all on-disk paths (`koPath`/`zhPath`/`metaPath`/`outDir`), parses the `--only` filter (`parseOnly`), splits text into paragraphs (`splitParagraphs`), reads/writes per-chapter metadata, and reports token cost (`PRICING`, `estimateCost`). |
 | **`sources.ts`** | **Stage 1 parsing.** `extractChapter()` turns one raw file into normalized plain text — `.docx` via `mammoth`, `.html` via `cheerio`, `.txt` read directly (already one paragraph per line, e.g. from `chapter-braker.ts`). The HTML path finds the element with the most direct `<p>` children, takes its (obfuscated) content class, and collects every `<p>` under that class in document order, since KakaoPage splits a chapter across sibling blocks. Strips the `RAW` / "NNN화" header and page chrome. |
-| **`extract.ts`** | **Stage 1 driver.** `runExtract()` walks discovered chapters, calls `extractChapter()`, writes `work/chapters/NNN.ko.txt`, and records source metadata (char/paragraph counts) to `NNN.meta.json`. Skips files already extracted unless `--force`. |
-| **`context.ts`** | The per-book translation context (`context.yaml`): a free-form `style` string plus a `glossary` of `ko → zh` term mappings. `loadContext`/`saveContext` read & write the YAML, `mergeGlossary` adds new terms without clobbering edited renderings, and `buildSystemPrompt` renders both into the system prompt that pins proper nouns. |
+| **`extract.ts`** | **Stage 1 driver.** `runExtract()` walks discovered chapters, calls `extractChapter()`, writes the normalized source to `work/chapters/NNN.ko.txt` (the `.ko`/`.zh` suffixes are fixed source/target labels, not language-specific), and records source metadata (char/paragraph counts) to `NNN.meta.json`. Skips files already extracted unless `--force`. |
+| **`context.ts`** | The per-book translation context (`context.yaml`): a free-form `style` string plus a `glossary` of source → target term mappings. `loadContext`/`saveContext` read & write the YAML and `buildSystemPrompt(ctx, sourceLang, targetLang)` renders both into the system prompt that pins proper nouns. (Glossary merging now lives in `glossary.ts`.) |
 | **`anthropic.ts`** | The only place that talks to the Claude API. `getClient()` constructs the SDK client (requires `ANTHROPIC_API_KEY`); `call()` / `callStream()` make one `messages.create` request with the system prompt sent as a **cache-controlled block** (so the identical style+glossary is billed at the cached rate across calls). `callStream` streams snapshots for live progress. Both wrap the request in `withRetry`, which **waits and retries on rate limits (429), overload (529), transient 5xx, and connection errors** — honoring the `Retry-After` header, otherwise exponential backoff — instead of failing the run. |
-| **`glossary.ts`** | **Glossary stage.** `runGlossary()` samples the first few extracted chapters, asks the model (via `anthropic.call`) to extract recurring proper nouns as JSON, merges them into `context.yaml`. Runs entirely from the CLI so new books don't need a manual glossary to start. |
-| **`translate.ts`** | **Stage 3.** `runTranslate()` reads `NNN.ko.txt`, groups paragraphs into batches under a source-character budget (`batchByChars`), and sends each batch as numbered lines with the `context.ts` system prompt. Batches **stream** (`callStream`) and run through a **bounded concurrency pool** (`runPool`, `--concurrency`, default 4), with aggregate live progress. Responses are matched back by line number so paragraph structure is preserved **1:1** (a dropped paragraph falls back to the source). Writes `NNN.zh.txt` and updates `NNN.meta.json` with model + token usage. Skips chapters already translated unless `--retranslate`. |
-| **`build.ts`** | **Stage 4.** `runBuild()` collects translated chapters (ordered by episode), renders each as HTML, and emits **epub** (`epub-gen-memory`, with a `目录` TOC of `第N话` titles) and/or **pdf** (a single HTML doc with an anchored TOC, printed via headless Chrome through `puppeteer`). `--per-chapter` also writes one file per chapter under `out/chapters/`. |
+| **`glossary.ts`** | **Glossary stage.** `runGlossary()` samples extracted chapters — the first few, or any window via `--only` — and asks the model (via `anthropic.call`) to extract recurring proper nouns as JSON. Already-pinned terms are shown to the model so it returns only *new* ones; the merge (keyed on the source term) adds new terms, fills in missing renderings, and **reports conflicts** rather than overwriting a pinned rendering (`--force` adopts the model's). Lets the glossary evolve across a long book without clobbering edits. |
+| **`translate.ts`** | **Stage 3.** `runTranslate()` reads `NNN.ko.txt`, groups paragraphs into batches under a source-character budget (`batchByChars`), and sends each batch as numbered lines with the `context.ts` system prompt (built from the book's `sourceLang`/`targetLang`). Batches **stream** (`callStream`) and run through a **bounded concurrency pool** (`runPool`, `--concurrency`, default 4), with aggregate live progress. Responses are matched back by line number so paragraph structure is preserved **1:1** (a dropped paragraph falls back to the source). Writes `NNN.zh.txt` and updates `NNN.meta.json` with model + token usage. Skips chapters already translated unless `--retranslate`. |
+| **`build.ts`** | **Stage 4.** `runBuild()` collects translated chapters (ordered by episode), renders each as HTML, and emits **epub** (`epub-gen-memory`) and/or **pdf** (a single HTML doc with an anchored TOC, printed via headless Chrome through `puppeteer`). The TOC heading (`tocTitle`) and output `lang` come from `book.yaml`; chapter titles are either `titleFormat` (`第N话`) or, with `titleFromFirstLine`, each chapter's translated first line. `--per-chapter` also writes one file per chapter under `out/chapters/`. |
 
 ### Data flow on disk
 

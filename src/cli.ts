@@ -1,6 +1,6 @@
 #!/usr/bin/env -S npx tsx
 /**
- * cli.ts — Korean -> Chinese web-novel translator.
+ * cli.ts — web-novel translator (direction set per book via book.yaml).
  *
  *   book-translate extract   <book> [--only 1,2,360] [--force]
  *   book-translate glossary  <book> [--chapters 5] [--model …] [--force]
@@ -29,7 +29,7 @@ function assertBook(dir: string): void {
 const program = new Command();
 program
   .name("book-translate")
-  .description("Translate web-novel raws (Korean -> Chinese) and build epub/pdf.");
+  .description("Translate web-novel raws (direction per book.yaml) and build epub/pdf.");
 
 program
   .command("extract")
