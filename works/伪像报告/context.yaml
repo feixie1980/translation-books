@@ -1,0 +1,84 @@
+# Translation context for this book.
+# `style`   : free-form guidance injected into the system prompt.
+# `glossary`: ko (source term) -> zh (fixed Chinese rendering) [+ note].
+#            Edit zh values to lock in the rendering you want.
+
+style: |-
+  Genre: Chinese web novel — an ensemble ("群像") xuanhuan/adventure story set in a
+  world where 1% of people have an innate "通路" (gateway) into perilous otherworlds.
+  - Translate into natural, fluent, idiomatic English prose that reads like a
+    professionally localized web novel — not a literal gloss.
+  - Preserve the original paragraph breaks exactly (one input paragraph -> one output paragraph).
+  - Render Chinese onomatopoeia and sound effects (呼——呼, 吱呀呀, 啪) as vivid English
+    equivalents; do not drop or collapse repetition.
+  - Use natural English dialogue punctuation (double quotes for speech).
+  - Keep Chinese given-name order where it reads naturally for names; be consistent.
+  - Convert in-world currency notes faithfully (the book states 1 黑摩尔 = 8 RMB).
+  - Do not add translator notes, summaries, or commentary.
+glossary:
+  - ko: 伪像
+    zh: Phantom/Artifact
+    note: term - supernatural objects/entities that come from the Nest
+  - ko: 安东尼
+    zh: Anthony
+    note: character
+  - ko: 家派
+    zh: House Faction
+    note: org - faction/organization that employs Hunters
+  - ko: 居民
+    zh: Resident
+    note: term - doppelganger/nest entity that copies a person's identity
+  - ko: 巢穴
+    zh: Nest
+    note: term - the supernatural lair/dungeon setting
+  - ko: 布鲁蓝社区大学站
+    zh: Buluan Community College Station
+    note: place
+  - ko: 无限幻境的虚拟指南
+    zh: Virtual Guide to the Infinite Illusion
+    note: term - special ability/item
+  - ko: 柴司
+    zh: Chai Si
+    note: character
+  - ko: 猎人
+    zh: Hunter
+    note: term - people who hunt/retrieve Phantoms from the Nest
+  - ko: 现代艺术博物馆
+    zh: Museum of Modern Art
+    note: place
+  - ko: 生命示警器
+    zh: Life Alert / Emergency Alert Device
+    note: term
+  - ko: 皇鲤
+    zh: Huang Li
+    note: character
+  - ko: 科罗拉多大道
+    zh: Colorado Avenue
+    note: place
+  - ko: 紧急支援系统
+    zh: Emergency Response System
+    note: term
+  - ko: 蓝布袋
+    zh: Blue Bags
+    note: term - slang for police officers
+  - ko: 跳房子
+    zh: Hopscotch
+    note: term - a specific dangerous area/section within the Nest
+  - ko: 通路
+    zh: passage/channel (special ability conduit)
+    note: term
+  - ko: 金雪梨
+    zh: Jin Xueli
+    note: character
+  - ko: 韦家庄园
+    zh: Wei Family Estate
+    note: place
+  - ko: 韦西莱
+    zh: Wei Xilai
+    note: character
+  - ko: 麦明河
+    zh: Mai Minghe
+    note: character
+  - ko: 黑摩尔市
+    zh: Blackmoor City
+    note: place

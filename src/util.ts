@@ -28,19 +28,38 @@ export interface BookConfig {
   targetLang: string;
   /** e.g. "第{n}话" — {n} is replaced with the episode number. */
   titleFormat: string;
+  /**
+   * When true, use the first paragraph of each translated chapter as that
+   * chapter's title (and drop it from the body) instead of `titleFormat`.
+   * For raws whose heading line is kept in-body (e.g. `第1章 …` from
+   * chapter-braker.ts), this surfaces the descriptive title in the TOC.
+   */
+  titleFromFirstLine: boolean;
+  /** BCP-47 language tag for the output epub/pdf; defaults from targetLang. */
+  lang: string;
+  /** TOC heading in the output; defaults from targetLang. */
+  tocTitle: string;
 }
 
 export function loadBookConfig(bookDir: string): BookConfig {
   const cfgPath = path.join(bookDir, "book.yaml");
-  const defaults: BookConfig = {
+  const base = {
     title: path.basename(path.resolve(bookDir)),
     sourceLang: "Korean",
     targetLang: "Simplified Chinese",
     titleFormat: "第{n}话",
+    titleFromFirstLine: false,
   };
-  if (!fs.existsSync(cfgPath)) return defaults;
-  const raw = (yaml.load(fs.readFileSync(cfgPath, "utf-8")) ?? {}) as Partial<BookConfig>;
-  return { ...defaults, ...raw };
+  const raw = fs.existsSync(cfgPath)
+    ? ((yaml.load(fs.readFileSync(cfgPath, "utf-8")) ?? {}) as Partial<BookConfig>)
+    : {};
+  const merged = { ...base, ...raw };
+  const isEnglish = /english/i.test(merged.targetLang);
+  return {
+    ...merged,
+    lang: raw.lang ?? (isEnglish ? "en" : "zh"),
+    tocTitle: raw.tocTitle ?? (isEnglish ? "Contents" : "目录"),
+  };
 }
 
 export function chapterTitle(cfg: BookConfig, episode: number): string {
@@ -73,7 +92,7 @@ export function pad(episode: number): string {
 export interface RawChapter {
   episode: number;
   file: string; // absolute path
-  format: "docx" | "html";
+  format: "docx" | "html" | "txt";
 }
 
 /**
@@ -94,14 +113,15 @@ export function discoverRawChapters(bookDir: string): RawChapter[] {
   const out: RawChapter[] = [];
   for (const name of fs.readdirSync(dir)) {
     const ext = path.extname(name).toLowerCase();
-    if (ext !== ".docx" && ext !== ".html" && ext !== ".htm") continue;
+    if (ext !== ".docx" && ext !== ".html" && ext !== ".htm" && ext !== ".txt") continue;
     if (name.startsWith("~$")) continue; // Word lock files
     const episode = episodeFromFilename(name);
     if (episode === null) continue;
+    const format = ext === ".docx" ? "docx" : ext === ".txt" ? "txt" : "html";
     out.push({
       episode,
       file: path.join(dir, name),
-      format: ext === ".docx" ? "docx" : "html",
+      format,
     });
   }
   out.sort((a, b) => a.episode - b.episode);

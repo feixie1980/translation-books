@@ -1,0 +1,10 @@
+# Per-book config. All fields optional; sensible defaults shown.
+title: 伪像报告
+author: 须尾俱全
+sourceLang: Chinese
+targetLang: English
+# {n} is replaced with the chapter's episode number.
+titleFormat: Chapter {n}
+# Each chapter's heading (e.g. "第1章 …") is kept as the first line of its raw,
+# so use the translated first line as the chapter title in the TOC.
+titleFromFirstLine: true

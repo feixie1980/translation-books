@@ -21,11 +21,11 @@ export interface BookContext {
   glossary: GlossaryEntry[];
 }
 
-const DEFAULT_STYLE = `Genre: Korean horror/thriller web novel ("괴담"). Narration is first-person, fast-paced, and colloquial.
-- Translate into natural, fluent, idiomatic Simplified Chinese web-novel prose.
+const DEFAULT_STYLE = `Genre: web novel. Narration is often first-person, fast-paced, and colloquial.
+- Translate into natural, fluent, idiomatic target-language web-novel prose.
 - Preserve the original paragraph breaks exactly (one input paragraph -> one output paragraph).
-- Keep onomatopoeia and repeated sound effects (e.g. 덜컹덜컹, 쾅) as vivid Chinese equivalents; do not collapse or drop repetition.
-- Keep dialogue punctuation natural for Chinese ("..." for speech is fine).
+- Keep onomatopoeia and repeated sound effects as vivid equivalents; do not collapse or drop repetition.
+- Keep dialogue punctuation natural for the target language.
 - Do not add translator notes, summaries, or commentary.`;
 
 export function loadContext(bookDir: string): BookContext {
@@ -42,22 +42,10 @@ export function saveContext(bookDir: string, ctx: BookContext): void {
   const body =
     "# Translation context for this book.\n" +
     "# `style`   : free-form guidance injected into the system prompt.\n" +
-    "# `glossary`: ko (source term) -> zh (fixed Chinese rendering) [+ note].\n" +
-    "#            Edit zh values to lock in the rendering you want.\n\n" +
+    "# `glossary`: ko (source term) -> zh (fixed target-language rendering) [+ note].\n" +
+    "#            Edit the renderings to lock in what you want.\n\n" +
     yaml.dump(ctx, { lineWidth: 100, quotingType: '"' });
   fs.writeFileSync(contextPath(bookDir), body);
-}
-
-/** Merge newly-discovered entries in, keeping existing ko/zh choices intact. */
-export function mergeGlossary(
-  existing: GlossaryEntry[],
-  found: GlossaryEntry[],
-): GlossaryEntry[] {
-  const byKo = new Map(existing.map((e) => [e.ko, e]));
-  for (const f of found) {
-    if (!byKo.has(f.ko)) byKo.set(f.ko, f);
-  }
-  return [...byKo.values()].sort((a, b) => a.ko.localeCompare(b.ko));
 }
 
 /** Render the context as the system prompt text for translation. */

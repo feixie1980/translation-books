@@ -44,9 +44,10 @@ program
 program
   .command("glossary")
   .argument("<book>", "book folder")
+  .option("--only <list>", "sample these episodes, e.g. 100-110 (default: first --chapters)")
   .option("--chapters <n>", "how many chapters to sample", (v) => parseInt(v, 10))
   .option("--model <id>", `model (default ${DEFAULT_MODEL})`)
-  .option("--force", "overwrite zh of existing glossary entries too")
+  .option("--force", "adopt the model's rendering when it differs from a pinned one")
   .action(async (book, opts) => {
     assertBook(book);
     await runGlossary(book, opts);

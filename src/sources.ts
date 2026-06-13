@@ -37,6 +37,16 @@ async function extractDocx(file: string): Promise<string> {
   return normalize(value.split(/\r?\n/));
 }
 
+/**
+ * Plain-text chapters (e.g. produced by chapter-braker.ts): already one
+ * paragraph per line. `normalize` trims leading full-width indents (　　) and
+ * drops blank lines; the per-language boilerplate filters are no-ops here.
+ */
+function extractTxt(file: string): string {
+  const text = fs.readFileSync(file, "utf-8");
+  return normalize(text.split(/\r?\n/));
+}
+
 function extractHtml(file: string): string {
   const html = fs.readFileSync(file, "utf-8");
   const $ = cheerio.load(html);
@@ -85,5 +95,7 @@ function extractHtml(file: string): string {
 }
 
 export async function extractChapter(ch: RawChapter): Promise<string> {
-  return ch.format === "docx" ? extractDocx(ch.file) : extractHtml(ch.file);
+  if (ch.format === "docx") return extractDocx(ch.file);
+  if (ch.format === "txt") return extractTxt(ch.file);
+  return extractHtml(ch.file);
 }

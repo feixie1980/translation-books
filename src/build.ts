@@ -58,11 +58,14 @@ function collectChapters(bookDir: string, cfg: BookConfig, only?: string): Chapt
     .map((c) => c.episode)
     .filter((ep) => !filter || filter.has(ep))
     .filter((ep) => fs.existsSync(zhPath(bookDir, ep)));
-  return episodes.map((ep) => ({
-    episode: ep,
-    title: chapterTitle(cfg, ep),
-    paras: splitParagraphs(fs.readFileSync(zhPath(bookDir, ep), "utf-8")),
-  }));
+  return episodes.map((ep) => {
+    const paras = splitParagraphs(fs.readFileSync(zhPath(bookDir, ep), "utf-8"));
+    if (cfg.titleFromFirstLine && paras.length > 0) {
+      // First paragraph is the translated chapter heading; use it as the title.
+      return { episode: ep, title: paras[0], paras: paras.slice(1) };
+    }
+    return { episode: ep, title: chapterTitle(cfg, ep), paras };
+  });
 }
 
 const PRINT_CSS = `
@@ -88,8 +91,8 @@ async function buildEpub(bookDir: string, cfg: BookConfig, chapters: Chapter[]):
     {
       title: cfg.title,
       author: cfg.author ?? "",
-      lang: "zh",
-      tocTitle: "目录",
+      lang: cfg.lang,
+      tocTitle: cfg.tocTitle,
       css: PRINT_CSS,
       ignoreFailedDownloads: true,
     },
@@ -111,17 +114,17 @@ function bookHtml(cfg: BookConfig, chapters: Chapter[]): string {
         `<h2 class="chapter" id="ch-${pad(ch.episode)}">${escapeHtml(ch.title)}</h2>\n${chapterBodyHtml(ch)}`,
     )
     .join("\n");
-  return `<!doctype html><html lang="zh"><head><meta charset="utf-8">
+  return `<!doctype html><html lang="${cfg.lang}"><head><meta charset="utf-8">
 <title>${escapeHtml(cfg.title)}</title><style>${PRINT_CSS}</style></head>
 <body>
 <h1 class="book-title">${escapeHtml(cfg.title)}</h1>
-<nav class="toc"><h2>目录</h2><ol>${toc}</ol></nav>
+<nav class="toc"><h2>${escapeHtml(cfg.tocTitle)}</h2><ol>${toc}</ol></nav>
 ${body}
 </body></html>`;
 }
 
 function singleChapterHtml(cfg: BookConfig, ch: Chapter): string {
-  return `<!doctype html><html lang="zh"><head><meta charset="utf-8">
+  return `<!doctype html><html lang="${cfg.lang}"><head><meta charset="utf-8">
 <title>${escapeHtml(cfg.title)} — ${escapeHtml(ch.title)}</title><style>${PRINT_CSS}</style></head>
 <body><h2 class="chapter" style="page-break-before:auto">${escapeHtml(ch.title)}</h2>
 ${chapterBodyHtml(ch)}</body></html>`;
@@ -166,7 +169,7 @@ async function buildPerChapter(
     const base = path.join(dir, pad(ch.episode));
     if (formats.has("epub")) {
       const buf = await generateEpub(
-        { title: `${cfg.title} ${ch.title}`, author: cfg.author ?? "", lang: "zh", css: PRINT_CSS },
+        { title: `${cfg.title} ${ch.title}`, author: cfg.author ?? "", lang: cfg.lang, css: PRINT_CSS },
         [{ title: ch.title, content: chapterBodyHtml(ch) }],
       );
       fs.writeFileSync(`${base}.epub`, buf);

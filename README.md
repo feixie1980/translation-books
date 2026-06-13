@@ -1,11 +1,13 @@
 # translation-books
 
-Translate web-novel raws (currently **Korean → Simplified Chinese**) with the
-Claude API and build **epub** / **pdf** with a table of contents.
+Translate web-novel raws with the Claude API and build **epub** / **pdf** with a
+table of contents. The translation direction is per-book (`sourceLang` /
+`targetLang` in `book.yaml`) — e.g. **Korean → Simplified Chinese** or
+**Chinese → English**.
 
 Each book is a subfolder of `works/`. Source chapters live in `<book>/Raws/`
-(one chapter per `.docx` or `.html` file). Outputs and intermediate files are
-source-controlled alongside the raws.
+(one chapter per `.docx`, `.html`, or `.txt` file). Outputs and intermediate
+files are source-controlled alongside the raws.
 
 ## Layout
 
@@ -45,6 +47,7 @@ pnpm book extract works/怪谈通勤 --only 1,2,360      # subset; --force to re
 
 # 2. Auto-seed the glossary from a few chapters (edit context.yaml after)
 pnpm book glossary works/怪谈通勤 --chapters 5
+pnpm book glossary works/怪谈通勤 --only 100-110     # grow it from a later arc
 
 # 3. Translate KO -> ZH  (skips chapters already translated)
 pnpm book translate works/怪谈通勤
@@ -101,7 +104,7 @@ output already exists (re-run freely; use `--force`/`--retranslate` to redo).
 |------|----------------|
 | **`cli.ts`** | Entry point. Defines the `extract` / `glossary` / `translate` / `build` / `run` commands and their flags with `commander`, then calls the matching `runX()`. `run` chains all stages (auto-seeding the glossary if `context.yaml` is missing). |
 | **`util.ts`** | Shared foundation used by every stage: loads `book.yaml` (`loadBookConfig`), discovers source chapters and parses their episode number from the filename (`discoverRawChapters`, `episodeFromFilename`), computes all on-disk paths (`koPath`/`zhPath`/`metaPath`/`outDir`), parses the `--only` filter (`parseOnly`), splits text into paragraphs (`splitParagraphs`), reads/writes per-chapter metadata, and reports token cost (`PRICING`, `estimateCost`). |
-| **`sources.ts`** | **Stage 1 parsing.** `extractChapter()` turns one raw file into normalized plain text — `.docx` via `mammoth`, `.html` via `cheerio`. The HTML path finds the element with the most direct `<p>` children, takes its (obfuscated) content class, and collects every `<p>` under that class in document order, since KakaoPage splits a chapter across sibling blocks. Strips the `RAW` / "NNN화" header and page chrome. |
+| **`sources.ts`** | **Stage 1 parsing.** `extractChapter()` turns one raw file into normalized plain text — `.docx` via `mammoth`, `.html` via `cheerio`, `.txt` read directly (already one paragraph per line, e.g. from `chapter-braker.ts`). The HTML path finds the element with the most direct `<p>` children, takes its (obfuscated) content class, and collects every `<p>` under that class in document order, since KakaoPage splits a chapter across sibling blocks. Strips the `RAW` / "NNN화" header and page chrome. |
 | **`extract.ts`** | **Stage 1 driver.** `runExtract()` walks discovered chapters, calls `extractChapter()`, writes `work/chapters/NNN.ko.txt`, and records source metadata (char/paragraph counts) to `NNN.meta.json`. Skips files already extracted unless `--force`. |
 | **`context.ts`** | The per-book translation context (`context.yaml`): a free-form `style` string plus a `glossary` of `ko → zh` term mappings. `loadContext`/`saveContext` read & write the YAML, `mergeGlossary` adds new terms without clobbering edited renderings, and `buildSystemPrompt` renders both into the system prompt that pins proper nouns. |
 | **`anthropic.ts`** | The only place that talks to the Claude API. `getClient()` constructs the SDK client (requires `ANTHROPIC_API_KEY`); `call()` / `callStream()` make one `messages.create` request with the system prompt sent as a **cache-controlled block** (so the identical style+glossary is billed at the cached rate across calls). `callStream` streams snapshots for live progress. Both wrap the request in `withRetry`, which **waits and retries on rate limits (429), overload (529), transient 5xx, and connection errors** — honoring the `Retry-After` header, otherwise exponential backoff — instead of failing the run. |
@@ -138,11 +141,33 @@ alongside the raws.
 - **Rate limits:** API calls automatically wait and retry on `429`/overload/
   transient errors (honoring `Retry-After`), so a run keeps going instead of
   dying. If you hit limits often, lower `--concurrency`.
-- **Titles:** `第{n}话` (the Korean raws have no descriptive chapter titles).
+- **Titles:** `titleFormat` (e.g. `第{n}话`) when raws have no descriptive
+  headings. If a raw keeps its heading as the first line (e.g. `第1章 …` from
+  `chapter-braker.ts`), set `titleFromFirstLine: true` in `book.yaml` to use the
+  translated first line as the chapter title in the TOC and drop it from the body.
+- **Output language:** `lang` (BCP-47) and `tocTitle` default from `targetLang`
+  (`English` → `en` / "Contents", otherwise `zh` / "目录"); override in `book.yaml`.
 
 ## context.yaml
 
 Keeps proper nouns consistent across chapters. `glossary` entries pin a source
-term to a fixed Chinese rendering; `style` is free-form guidance injected into
-the translation system prompt. `glossary` auto-seeds proper nouns it finds, but
-**review the `zh` values** before a full translation run.
+term to a fixed target-language rendering; `style` is free-form guidance injected
+into the translation system prompt. `glossary` auto-seeds proper nouns it finds,
+but **review the renderings** before a full translation run.
+
+### Evolving the glossary
+
+New characters and concepts appear deeper into a long book, so the glossary is
+designed to grow without clobbering your edits:
+
+- `pnpm book glossary <book> --only 100-110` samples any chapter window (the
+  whole range by default; cap with `--chapters`). Re-run it on later arcs as the
+  story introduces new terms.
+- The **already-pinned terms are shown to the model**, which is asked to reuse
+  them verbatim and return only *new* terms — so re-runs don't duplicate or
+  re-render what you already have.
+- The merge is keyed on the source term: new terms are **added**, known terms
+  with no rendering are **filled in**, and if the model proposes a *different*
+  rendering for a pinned term it's reported as a **conflict** and your value is
+  kept (re-run with `--force` to adopt the model's, or edit by hand). One entry
+  per source term — no duplicates, no silently overwritten renderings.
