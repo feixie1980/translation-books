@@ -58,6 +58,23 @@ pnpm book build works/怪谈通勤 --per-chapter         # also one file per cha
 pnpm book run works/怪谈通勤
 ```
 
+### Splitting a single .txt into chapters
+
+`src/chapter-braker.ts` is a standalone helper (separate from the pipeline
+above) that breaks one combined `.txt` into one file per chapter:
+
+```sh
+npx tsx src/chapter-braker.ts works/伪像报告/Raws/test.txt --pattern "第1章"
+```
+
+- **Input:** one `.txt` file. **Output:** an `out/` folder next to it (cleared
+  if it already exists), containing `001.txt`, `002.txt`, … Zero-padding width
+  is derived from the chapter count (2 chapters → `1.txt`; 150 → `001.txt`).
+- **`--pattern`** is a *sample heading* whose digit runs are treated as
+  wildcards, so `第1章` matches `第1章`, `第2章`, `第42章`, … Different files can
+  use different samples. Add `--regex` to pass a raw regular expression instead.
+- Text before the first heading (title / author / intro) is saved to `000.txt`.
+
 ## Code architecture
 
 The tool is a small TypeScript CLI run with `tsx` (no build step). All sources
