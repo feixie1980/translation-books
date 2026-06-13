@@ -20,7 +20,7 @@ import {
   log,
 } from "./util.js";
 import { loadContext, buildSystemPrompt } from "./context.js";
-import { getClient, callStream } from "./anthropic.js";
+import { getClient, call, callStream, isContentFilterError } from "./anthropic.js";
 
 // ---- progress line: live-updating on a TTY, plain log lines otherwise ------
 const isTTY = Boolean(process.stdout.isTTY);
@@ -101,6 +101,7 @@ export async function runTranslate(bookDir: string, opts: TranslateOpts): Promis
   const client = getClient();
   let totalIn = 0;
   let totalOut = 0;
+  let totalBlocked = 0;
   let translated = 0;
 
   for (let c = 0; c < todo.length; c++) {
@@ -111,8 +112,24 @@ export async function runTranslate(bookDir: string, opts: TranslateOpts): Promis
     const prefix = `[${c + 1}/${todo.length}] Ch.${ep}`;
 
     const result = new Array<string>(paras.length);
+    const blockedParas: number[] = []; // 1-based paragraph numbers the filter blocked
     let chIn = 0;
     let chOut = 0;
+
+    // Prompt for a numbered range of paragraphs, and parse the numbered reply
+    // back into `result` by absolute index (numbering is 1-based and absolute,
+    // so split sub-ranges still land in the right slots).
+    const buildUser = (startIndex: number, items: string[]): string =>
+      `Translate these numbered ${cfg.sourceLang} paragraphs to ${cfg.targetLang}. ` +
+      `Return EXACTLY one line per input as \`<number><TAB><translation>\`, ` +
+      `same numbering, no blank lines, no commentary:\n\n` +
+      items.map((p, i) => `${startIndex + i + 1}\t${p}`).join("\n");
+    const parseInto = (text: string) => {
+      for (const line of text.split(/\r?\n/)) {
+        const m = line.match(/^\s*(\d+)\s*\t\s*(.*)$/) || line.match(/^\s*(\d+)[.):]\s*(.*)$/);
+        if (m) result[parseInt(m[1], 10) - 1] = m[2].trim();
+      }
+    };
 
     // Live, aggregate progress across all in-flight batches: each batch reports
     // how many of its lines have streamed in so far; we sum and render. Throttled
@@ -131,35 +148,54 @@ export async function runTranslate(bookDir: string, opts: TranslateOpts): Promis
     };
     render(true);
 
+    // Content-filter salvage: a blocked batch fails as a whole, so bisect it
+    // (non-streaming) to translate the clean paragraphs and isolate the offending
+    // ones down to single paragraphs, which fall back to source.
+    const salvage = async (startIndex: number, items: string[]): Promise<void> => {
+      if (items.length === 1) {
+        blockedParas.push(startIndex + 1);
+        return;
+      }
+      const mid = Math.ceil(items.length / 2);
+      const halves: Array<[number, string[]]> = [
+        [startIndex, items.slice(0, mid)],
+        [startIndex + mid, items.slice(mid)],
+      ];
+      for (const [s, part] of halves) {
+        if (part.length === 0) continue;
+        try {
+          const { text, inTok, outTok } = await call(client, model, system, buildUser(s, part));
+          chIn += inTok;
+          chOut += outTok;
+          parseInto(text);
+        } catch (e) {
+          if (!isContentFilterError(e)) throw e;
+          await salvage(s, part);
+        }
+      }
+    };
+
     const tasks = batches.map((batch, bi) => async () => {
-      const numbered = batch.items
-        .map((p, i) => `${batch.start + i + 1}\t${p}`)
-        .join("\n");
-      const user =
-        `Translate these numbered ${cfg.sourceLang} paragraphs to ${cfg.targetLang}. ` +
-        `Return EXACTLY one line per input as \`<number><TAB><translation>\`, ` +
-        `same numbering, no blank lines, no commentary:\n\n` +
-        numbered;
-
-      const { text, inTok, outTok } = await callStream(
-        client,
-        model,
-        system,
-        user,
-        (snapshot) => {
-          const n = Math.min(completedLines(snapshot), batch.items.length);
-          if (n !== live[bi]) {
-            live[bi] = n;
-            render();
-          }
-        },
-      );
-      chIn += inTok;
-      chOut += outTok;
-
-      for (const line of text.split(/\r?\n/)) {
-        const m = line.match(/^\s*(\d+)\s*\t\s*(.*)$/) || line.match(/^\s*(\d+)[.):]\s*(.*)$/);
-        if (m) result[parseInt(m[1], 10) - 1] = m[2].trim();
+      try {
+        const { text, inTok, outTok } = await callStream(
+          client,
+          model,
+          system,
+          buildUser(batch.start, batch.items),
+          (snapshot) => {
+            const n = Math.min(completedLines(snapshot), batch.items.length);
+            if (n !== live[bi]) {
+              live[bi] = n;
+              render();
+            }
+          },
+        );
+        chIn += inTok;
+        chOut += outTok;
+        parseInto(text);
+      } catch (e) {
+        if (!isContentFilterError(e)) throw e;
+        await salvage(batch.start, batch.items);
       }
       live[bi] = batch.items.length;
       render(true);
@@ -168,7 +204,7 @@ export async function runTranslate(bookDir: string, opts: TranslateOpts): Promis
     await runPool(tasks, concurrency);
     progressEnd();
 
-    // Fall back to source for any paragraph the model dropped.
+    // Fall back to source for any paragraph the model dropped or the filter blocked.
     let missing = 0;
     for (let i = 0; i < paras.length; i++) {
       if (!result[i]) {
@@ -180,6 +216,7 @@ export async function runTranslate(bookDir: string, opts: TranslateOpts): Promis
     // blank lines, so extract/build read this back identically.)
     fs.writeFileSync(out, result.join("\n\n") + "\n");
 
+    blockedParas.sort((a, b) => a - b);
     const prev = readMeta(bookDir, ep) ?? ({} as any);
     writeMeta(bookDir, {
       ...prev,
@@ -188,10 +225,12 @@ export async function runTranslate(bookDir: string, opts: TranslateOpts): Promis
       tokensIn: chIn,
       tokensOut: chOut,
       translatedAt: new Date().toISOString(),
+      blockedParas: blockedParas.length ? blockedParas : undefined,
     });
 
     totalIn += chIn;
     totalOut += chOut;
+    totalBlocked += blockedParas.length;
     translated++;
     const cost = estimateCost(model, chIn, chOut);
     log(
@@ -199,12 +238,19 @@ export async function runTranslate(bookDir: string, opts: TranslateOpts): Promis
         (missing ? `, ${missing} fell back to source` : "") +
         `  (${chIn} in / ${chOut} out ~= $${cost.toFixed(3)})`,
     );
+    if (blockedParas.length) {
+      log(
+        `    ⚠ ${blockedParas.length} paragraph(s) blocked by content filter, kept source: ` +
+          blockedParas.join(", "),
+      );
+    }
   }
 
   const cost = estimateCost(model, totalIn, totalOut);
   log(
     `Translate done: ${translated} chapter(s), ${skipped} already done. ` +
-      `Total tokens ${totalIn} in / ${totalOut} out ~= $${cost.toFixed(2)}.`,
+      `Total tokens ${totalIn} in / ${totalOut} out ~= $${cost.toFixed(2)}.` +
+      (totalBlocked ? ` ${totalBlocked} paragraph(s) blocked by content filter (kept source).` : ""),
   );
 }
 

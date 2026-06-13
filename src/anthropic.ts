@@ -21,6 +21,17 @@ export interface CallResult {
   outTok: number;
 }
 
+/**
+ * True for the API's content-filtering rejection ("Output blocked by content
+ * filtering policy"), a non-retryable 400. Callers handle it specially (e.g.
+ * fall back to source) rather than aborting a whole run.
+ */
+export function isContentFilterError(err: unknown): boolean {
+  const e = err as { message?: string; error?: { message?: string } };
+  const msg = `${e?.message ?? ""} ${e?.error?.message ?? ""}`;
+  return /content[\s_-]*filtering/i.test(msg);
+}
+
 // ---- Retry / wait ---------------------------------------------------------
 const RETRYABLE_STATUS = new Set([408, 409, 429, 500, 502, 503, 504, 529]);
 const MAX_ATTEMPTS = 12;

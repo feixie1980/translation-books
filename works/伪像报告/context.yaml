@@ -1,7 +1,7 @@
 # Translation context for this book.
 # `style`   : free-form guidance injected into the system prompt.
-# `glossary`: ko (source term) -> zh (fixed Chinese rendering) [+ note].
-#            Edit zh values to lock in the rendering you want.
+# `glossary`: ko (source term) -> zh (fixed target-language rendering) [+ note].
+#            Edit the renderings to lock in what you want.
 
 style: |-
   Genre: Chinese web novel — an ensemble ("群像") xuanhuan/adventure story set in a
@@ -17,8 +17,11 @@ style: |-
   - Do not add translator notes, summaries, or commentary.
 glossary:
   - ko: 伪像
-    zh: Phantom/Artifact
+    zh: Artifact
     note: term - supernatural objects/entities that come from the Nest
+  - ko: 吸氧机
+    zh: oxygen machine
+    note: term
   - ko: 安东尼
     zh: Anthony
     note: character
@@ -34,15 +37,21 @@ glossary:
   - ko: 布鲁蓝社区大学站
     zh: Buluan Community College Station
     note: place
+  - ko: 护工
+    zh: nurse aide
+    note: term
   - ko: 无限幻境的虚拟指南
     zh: Virtual Guide to the Infinite Illusion
     note: term - special ability/item
   - ko: 柴司
-    zh: Chai Si
+    zh: Chase
     note: character
+  - ko: 门罗
+    zh: Monroe
+    note: last name
   - ko: 猎人
     zh: Hunter
-    note: term - people who hunt/retrieve Phantoms from the Nest
+    note: term - people who hunt/retrieve Artifacts from the Nest
   - ko: 现代艺术博物馆
     zh: Museum of Modern Art
     note: place
@@ -50,8 +59,11 @@ glossary:
     zh: Life Alert / Emergency Alert Device
     note: term
   - ko: 皇鲤
-    zh: Huang Li
+    zh: v
     note: character
+  - ko: 社工
+    zh: social worker
+    note: term
   - ko: 科罗拉多大道
     zh: Colorado Avenue
     note: place
@@ -68,13 +80,16 @@ glossary:
     zh: passage/channel (special ability conduit)
     note: term
   - ko: 金雪梨
-    zh: Jin Xueli
+    zh: Sydney Gyn
     note: character
+  - ko: 雏菊
+    zh: Daisy
+    note: term
   - ko: 韦家庄园
-    zh: Wei Family Estate
+    zh: Wellesley Family Estate
     note: place
   - ko: 韦西莱
-    zh: Wei Xilai
+    zh: Wellesley
     note: character
   - ko: 麦明河
     zh: Mai Minghe

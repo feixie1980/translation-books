@@ -157,6 +157,8 @@ export interface ChapterMeta {
   tokensIn?: number;
   tokensOut?: number;
   translatedAt?: string;
+  /** 1-based paragraph numbers the content filter blocked (kept source text). */
+  blockedParas?: number[];
 }
 
 export function koPath(bookDir: string, episode: number): string {

@@ -1,0 +1,11 @@
+{
+  "episode": 5,
+  "sourceFile": "005.txt",
+  "format": "txt",
+  "koChars": 4333,
+  "paragraphs": 94,
+  "model": "claude-sonnet-4-6",
+  "tokensIn": 7107,
+  "tokensOut": 4434,
+  "translatedAt": "2026-06-13T18:09:27.462Z"
+}

@@ -172,6 +172,13 @@ alongside the raws.
 - **Rate limits:** API calls automatically wait and retry on `429`/overload/
   transient errors (honoring `Retry-After`), so a run keeps going instead of
   dying. If you hit limits often, lower `--concurrency`.
+- **Content filtering:** if the API blocks a batch's output ("Output blocked by
+  content filtering policy" — common in horror/violent prose), `translate`
+  doesn't abort. It bisects the batch to translate the clean paragraphs and
+  isolates the offending one(s) down to single paragraphs, which **fall back to
+  the source text**. Blocked paragraph numbers are logged and recorded in
+  `NNN.meta.json` (`blockedParas`) so you can hand-translate them. The filter is
+  somewhat non-deterministic, so a `--retranslate` re-run may clear it.
 - **Titles:** `titleFormat` (e.g. `第{n}话`) when raws have no descriptive
   headings. If a raw keeps its heading as the first line (e.g. `第1章 …` from
   `chapter-braker.ts`), set `titleFromFirstLine: true` in `book.yaml` to use the
