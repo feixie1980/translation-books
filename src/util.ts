@@ -39,6 +39,12 @@ export interface BookConfig {
   lang: string;
   /** TOC heading in the output; defaults from targetLang. */
   tocTitle: string;
+  /**
+   * Cover image for the epub/pdf. A path relative to the book folder (or
+   * absolute). If unset, a `cover.{jpg,jpeg,png,webp,gif}` in the book folder is
+   * used automatically.
+   */
+  cover?: string;
 }
 
 export function loadBookConfig(bookDir: string): BookConfig {

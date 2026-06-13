@@ -15,8 +15,9 @@ files are source-controlled alongside the raws.
 works/
   <book>/                 # e.g. works/怪谈通勤
     Raws/                 # source: "Ch. 12.docx", "360.html", … (one chapter per file)
-    book.yaml             # optional: title, author, langs, title format
+    book.yaml             # optional: title, author, langs, title format, cover
     context.yaml          # style + glossary (auto-seeded; edit to pin renderings)
+    cover.jpg             # optional: cover art (auto-detected; see Defaults)
     work/chapters/        # intermediate, cached, git-tracked:
       0012.ko.txt         #   normalized source     (.ko/.zh are fixed labels for
       0012.zh.txt         #   translation            source/target — any language)
@@ -185,6 +186,13 @@ alongside the raws.
   translated first line as the chapter title in the TOC and drop it from the body.
 - **Output language:** `lang` (BCP-47) and `tocTitle` default from `targetLang`
   (`English` → `en` / "Contents", otherwise `zh` / "目录"); override in `book.yaml`.
+- **Cover art:** drop a `cover.jpg` (or `.jpeg`/`.png`/`.webp`/`.gif`) in the book
+  folder and it's used automatically — set as the epub cover (shown as the book
+  thumbnail) and as a full-page cover at the front of the pdf. Point elsewhere
+  with `cover: art/my-cover.png` in `book.yaml` (path relative to the book folder,
+  or absolute). No cover file → builds proceed without one, as before. A tall
+  portrait image at the usual book-cover aspect ratio (e.g. ~1600×2560) looks
+  best — it's scaled to fit the page width in the pdf and used as-is in the epub.
 
 ## context.yaml
 

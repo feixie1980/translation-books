@@ -2,11 +2,13 @@
  * build.ts — Stage 3: assemble translated chapters into epub and/or pdf.
  *
  * Output goes to <book>/out/. Combined book by default; --per-chapter also
- * emits one file per chapter under out/chapters/. The table of contents uses
- * the translated chapter titles ("第N话").
+ * emits one file per chapter under out/chapters/. The TOC uses the translated
+ * chapter titles, and an optional cover image (book folder or book.yaml) is set
+ * as the epub cover and a full-page pdf cover.
  */
 import fs from "node:fs";
 import path from "node:path";
+import { File } from "node:buffer";
 import epubModule from "epub-gen-memory";
 import puppeteer from "puppeteer";
 
@@ -52,6 +54,30 @@ function chapterBodyHtml(ch: Chapter): string {
   return ch.paras.map((p) => `<p>${escapeHtml(p)}</p>`).join("\n");
 }
 
+// ---- Cover image ----------------------------------------------------------
+const COVER_EXTS = ["jpg", "jpeg", "png", "webp", "gif"];
+
+/** Resolve the cover image: `cover` from book.yaml, else cover.<ext> in the book folder. */
+function resolveCoverPath(bookDir: string, cfg: BookConfig): string | null {
+  const candidates = cfg.cover
+    ? [path.isAbsolute(cfg.cover) ? cfg.cover : path.join(bookDir, cfg.cover)]
+    : COVER_EXTS.map((ext) => path.join(bookDir, `cover.${ext}`));
+  return candidates.find((p) => fs.existsSync(p)) ?? null;
+}
+
+function coverMime(file: string): string {
+  switch (path.extname(file).toLowerCase()) {
+    case ".png":
+      return "image/png";
+    case ".webp":
+      return "image/webp";
+    case ".gif":
+      return "image/gif";
+    default:
+      return "image/jpeg";
+  }
+}
+
 function collectChapters(bookDir: string, cfg: BookConfig, only?: string): Chapter[] {
   const filter = parseOnly(only);
   const episodes = discoverRawChapters(bookDir)
@@ -72,6 +98,8 @@ const PRINT_CSS = `
   body { font-family: "Songti SC", "Source Han Serif SC", "PingFang SC", serif;
          line-height: 1.8; font-size: 16px; }
   h1.book-title { text-align: center; margin: 2em 0; }
+  .cover-page { page-break-after: always; text-align: center; margin: 0; }
+  img.cover { display: block; width: 100%; max-height: 100vh; object-fit: contain; margin: 0 auto; }
   h2.chapter { margin: 1.6em 0 0.8em; page-break-before: always; font-size: 1.3em; }
   p { margin: 0.6em 0; text-indent: 2em; }
   nav.toc { page-break-after: always; }
@@ -87,6 +115,12 @@ async function buildEpub(bookDir: string, cfg: BookConfig, chapters: Chapter[]):
     title: ch.title,
     content: chapterBodyHtml(ch),
   }));
+  // epub-gen-memory takes the cover as a File; it derives the image type from
+  // the filename and reads the bytes via arrayBuffer().
+  const coverPath = resolveCoverPath(bookDir, cfg);
+  const cover = coverPath
+    ? new File([fs.readFileSync(coverPath)], path.basename(coverPath), { type: coverMime(coverPath) })
+    : undefined;
   const buf = await generateEpub(
     {
       title: cfg.title,
@@ -95,16 +129,25 @@ async function buildEpub(bookDir: string, cfg: BookConfig, chapters: Chapter[]):
       tocTitle: cfg.tocTitle,
       css: PRINT_CSS,
       ignoreFailedDownloads: true,
+      ...(cover ? { cover } : {}),
     },
     content,
   );
   const out = path.join(outDir(bookDir), `${cfg.title}.epub`);
   fs.writeFileSync(out, buf);
-  log(`  ✓ epub -> ${out} (${chapters.length} chapters)`);
+  log(`  ✓ epub -> ${out} (${chapters.length} chapters${coverPath ? `, cover: ${path.basename(coverPath)}` : ""})`);
 }
 
 // ---- PDF ------------------------------------------------------------------
-function bookHtml(cfg: BookConfig, chapters: Chapter[]): string {
+/** Read the cover as a base64 data URI so it renders under page.setContent. */
+function coverDataUri(bookDir: string, cfg: BookConfig): string | null {
+  const coverPath = resolveCoverPath(bookDir, cfg);
+  if (!coverPath) return null;
+  const b64 = fs.readFileSync(coverPath).toString("base64");
+  return `data:${coverMime(coverPath)};base64,${b64}`;
+}
+
+function bookHtml(cfg: BookConfig, chapters: Chapter[], cover?: string | null): string {
   const toc = chapters
     .map((ch) => `<li><a href="#ch-${pad(ch.episode)}">${escapeHtml(ch.title)}</a></li>`)
     .join("\n");
@@ -114,10 +157,11 @@ function bookHtml(cfg: BookConfig, chapters: Chapter[]): string {
         `<h2 class="chapter" id="ch-${pad(ch.episode)}">${escapeHtml(ch.title)}</h2>\n${chapterBodyHtml(ch)}`,
     )
     .join("\n");
+  const coverHtml = cover ? `<div class="cover-page"><img class="cover" src="${cover}"></div>\n` : "";
   return `<!doctype html><html lang="${cfg.lang}"><head><meta charset="utf-8">
 <title>${escapeHtml(cfg.title)}</title><style>${PRINT_CSS}</style></head>
 <body>
-<h1 class="book-title">${escapeHtml(cfg.title)}</h1>
+${coverHtml}<h1 class="book-title">${escapeHtml(cfg.title)}</h1>
 <nav class="toc"><h2>${escapeHtml(cfg.tocTitle)}</h2><ol>${toc}</ol></nav>
 ${body}
 </body></html>`;
@@ -152,8 +196,9 @@ async function renderPdf(html: string, outPath: string): Promise<void> {
 
 async function buildPdf(bookDir: string, cfg: BookConfig, chapters: Chapter[]): Promise<void> {
   const out = path.join(outDir(bookDir), `${cfg.title}.pdf`);
-  await renderPdf(bookHtml(cfg, chapters), out);
-  log(`  ✓ pdf  -> ${out} (${chapters.length} chapters)`);
+  const cover = coverDataUri(bookDir, cfg);
+  await renderPdf(bookHtml(cfg, chapters, cover), out);
+  log(`  ✓ pdf  -> ${out} (${chapters.length} chapters${cover ? ", with cover" : ""})`);
 }
 
 // ---- Per-chapter ----------------------------------------------------------
