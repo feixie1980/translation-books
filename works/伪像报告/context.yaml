@@ -16,6 +16,12 @@ style: |-
   - Convert in-world currency notes faithfully (the book states 1 黑摩尔 = 8 RMB).
   - Do not add translator notes, summaries, or commentary.
 glossary:
+  - ko: 乘车须知
+    zh: Passenger Rules / Ride Guidelines
+    note: term - rules for taking the taxi in the Nest
+  - ko: 伊文
+    zh: Ivan
+    note: character - bodyguard
   - ko: 伪像
     zh: Artifact
     note: term - supernatural objects/entities that come from the Nest
@@ -34,27 +40,54 @@ glossary:
   - ko: 巢穴
     zh: Nest
     note: term - the supernatural lair/dungeon setting
+  - ko: 布鲁明戴尔
+    zh: Bloomingdale's
+    note: place - department store reference
   - ko: 布鲁蓝社区大学站
     zh: Buluan Community College Station
     note: place
   - ko: 护工
     zh: nurse aide
     note: term
+  - ko: 摩根家派
+    zh: Morgan House Faction
+    note: org - hunter house faction
   - ko: 无限幻境的虚拟指南
     zh: Virtual Guide to the Infinite Illusion
     note: term - special ability/item
   - ko: 柴司
     zh: Chase
     note: character
-  - ko: 门罗
-    zh: Monroe
-    note: last name
+  - ko: 模拟人生
+    zh: The Sims
+    note: term - video game reference
+  - ko: 波西米亚的翔
+    zh: Bohemian Xiang
+    note: character - reader/patron username
+  - ko: 浦东机场
+    zh: Pudong Airport
+    note: place - airport in Shanghai
+  - ko: 消防斧
+    zh: fire axe
+    note: term - weapon used in combat scene
+  - ko: 烛泪
+    zh: Candlefall / Candle Tears
+    note: term - artifact name (the giant candle artifact)
+  - ko: 狄兰
+    zh: Dylan
+    note: character - bodyguard
   - ko: 猎人
     zh: Hunter
     note: term - people who hunt/retrieve Artifacts from the Nest
+  - ko: 猫腻
+    zh: Maoni
+    note: character - referenced author (real person)
   - ko: 现代艺术博物馆
     zh: Museum of Modern Art
     note: place
+  - ko: 琥珀
+    zh: Amber
+    note: character - Sydney Gyn's friend, works finance for Morgan House Faction
   - ko: 生命示警器
     zh: Life Alert / Emergency Alert Device
     note: term
@@ -64,24 +97,45 @@ glossary:
   - ko: 社工
     zh: social worker
     note: term
+  - ko: 秃鹫
+    zh: Vulture
+    note: term - resident type/name
   - ko: 科罗拉多大道
     zh: Colorado Avenue
     note: place
+  - ko: 粉笔画房子
+    zh: chalk-drawn hopscotch grid
+    note: term - special location/game grid in the Nest
   - ko: 紧急支援系统
     zh: Emergency Response System
     note: term
   - ko: 蓝布袋
     zh: Blue Bags
     note: term - slang for police officers
+  - ko: 虚拟指南
+    zh: Virtual Guide
+    note: term - shorthand for the Virtual Guide to the Infinite Illusion
+  - ko: 虹桥机场
+    zh: Hongqiao Airport
+    note: place - airport in Shanghai
+  - ko: 蜜姐
+    zh: Sister Mi
+    note: character - referenced superior/organizer
   - ko: 跳房子
     zh: Hopscotch
     note: term - a specific dangerous area/section within the Nest
   - ko: 通路
     zh: passage/channel (special ability conduit)
     note: term
+  - ko: 金枪匠卢梭
+    zh: Gunsmith Rousseau
+    note: character - reader/patron username
   - ko: 金雪梨
     zh: Sydney Gyn
     note: character
+  - ko: 门罗
+    zh: Monroe
+    note: last name
   - ko: 雏菊
     zh: Daisy
     note: term
@@ -91,9 +145,15 @@ glossary:
   - ko: 韦西莱
     zh: Wellesley
     note: character
+  - ko: 马太法则
+    zh: Matthew Effect
+    note: term - sociological concept reference
   - ko: 麦明河
     zh: Mai Minghe
     note: character
+  - ko: 黄浦江
+    zh: Huangpu River
+    note: place - river in Shanghai
   - ko: 黑摩尔市
     zh: Blackmoor City
     note: place
