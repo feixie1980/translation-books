@@ -6,15 +6,19 @@
 style: |-
   Genre: Chinese web novel — an ensemble ("群像") xuanhuan/adventure story set in a
   world where 1% of people have an innate "通路" (gateway) into perilous otherworlds.
-  - Translate into natural, fluent, idiomatic English prose that reads like a
-    professionally localized web novel — not a literal gloss.
+  - Translate into natural, fluent, English prose that reads like a professionally localized web novel.
+  - Localize idioms into appropriate equivalents. Do not keep literal wording of phrases only if the meaning is different in English--translate with the meaning of the expression in mind.
+  - Do not overuse idioms when they are not present in the original text. 
+  - Keep phrasing as close to the original as possible unless unnatural, impeding understanding, or leading to a different implication.
   - Preserve the original paragraph breaks exactly (one input paragraph -> one output paragraph).
-  - Render Chinese onomatopoeia and sound effects (呼——呼, 吱呀呀, 啪) as vivid English
-    equivalents; do not drop or collapse repetition.
+  - Render Chinese onomatopoeia and sound effects (呼——呼, 吱呀呀, 啪) as English equivalents; do not drop or collapse repetition.
   - Use natural English dialogue punctuation (double quotes for speech).
   - Keep Chinese given-name order where it reads naturally for names; be consistent.
   - Convert in-world currency notes faithfully (the book states 1 黑摩尔 = 8 RMB).
   - Do not add translator notes, summaries, or commentary.
+  - Do not add any details (descriptive phrases and adjectives) that are not in present in the original text.
+  - Do not remove any details (descriptive phrases and adjectives) that are in present in the original text.
+  - Keep the sentence structure as close to the original as possible--for example, do not split sentences into more clauses than necessary to translate accurately.
 glossary:
   - ko: 乘车须知
     zh: Passenger Rules / Ride Guidelines
@@ -95,7 +99,7 @@ glossary:
     zh: Life Alert / Emergency Alert Device
     note: term
   - ko: 皇鲤
-    zh: v
+    zh: Kingsley
     note: character
   - ko: 社工
     zh: social worker
