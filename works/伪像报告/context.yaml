@@ -8,6 +8,7 @@ style: >-
 
   world where 1% of people have an innate "通路" (gateway) into perilous otherworlds.
 
+  - Do not use the word "genuine" or "actually". Use other word choices such as "actual", "truly", and etc, whatever is more appropriated.
 
   - Translate into natural, fluent, English prose that reads like a professionally localized web
   novel.
@@ -40,8 +41,6 @@ style: >-
   - Convert in-world currency notes faithfully (the book states 1 黑摩尔 = 8 RMB).
 
   - Do not add translator notes, summaries, or commentary.
-
-  - Do not always use "genuine" or "genuinely" for "确实". Use more varied word choices such as "actual", "indeed", etc.
 
 glossary:
   - ko: C线
@@ -92,6 +91,9 @@ glossary:
   - ko: 凯罗南
     zh: Ronan Key
     note: character - Chase's foster father
+  - ko: 凯叔
+    zh: Uncle Key
+    note: character - reffering to Ronan Key
   - ko: 单干
     zh: solo operator
     note: term
