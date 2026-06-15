@@ -3,42 +3,125 @@
 # `glossary`: ko (source term) -> zh (fixed target-language rendering) [+ note].
 #            Edit the renderings to lock in what you want.
 
-style: |-
+style: >-
   Genre: Chinese web novel — an ensemble ("群像") xuanhuan/adventure story set in a
+
   world where 1% of people have an innate "通路" (gateway) into perilous otherworlds.
 
-  - Translate into natural, fluent, English prose that reads like a professionally localized web novel.
+
+  - Translate into natural, fluent, English prose that reads like a professionally localized web
+  novel.
+
   - Localize idioms into appropriate equivalents.
+
   - Do not overuse idioms when they are not present in the original text. 
-  - Keep phrasing as close to the original (word-for-word) as much as possible unless unnatural, impeding understanding, or leading to a different implication.
-  - Do not add any details (descriptive phrases and adjectives) that are not in present in the original text.
-  - Do not remove any details (descriptive phrases and adjectives) that are in present in the original text.
-  - Keep the sentence structure as close to the original as possible--for example, do not split sentences into more clauses than necessary to translate accurately.
+
+  - Keep phrasing as close to the original (word-for-word) as much as possible unless unnatural,
+  impeding understanding, or leading to a different implication.
+
+  - Do not add any details (descriptive phrases and adjectives) that are not in present in the
+  original text.
+
+  - Do not remove any details (descriptive phrases and adjectives) that are in present in the
+  original text.
+
+  - Keep the sentence structure as close to the original as possible--for example, do not split
+  sentences into more clauses than necessary to translate accurately.
+
   - Preserve the original paragraph breaks exactly (one input paragraph -> one output paragraph).
-  - Render Chinese onomatopoeia and sound effects (呼——呼, 吱呀呀, 啪) as English equivalents; do not drop or collapse repetition.
+
+  - Render Chinese onomatopoeia and sound effects (呼——呼, 吱呀呀, 啪) as English equivalents; do not drop
+  or collapse repetition.
+
   - Use natural English dialogue punctuation (double quotes for speech).
+
   - Keep Chinese given-name order where it reads naturally for names; be consistent.
+
   - Convert in-world currency notes faithfully (the book states 1 黑摩尔 = 8 RMB).
-  - Do not add translator notes, summaries, or commentary.  
+
+  - Do not add translator notes, summaries, or commentary.
+
+  - Do not always use "genuine" or "genuinely" for "确实". Use more varied word choices such as "actual", "indeed", etc.
+
 glossary:
+  - ko: C线
+    zh: C Line
+    note: place
+  - ko: D线
+    zh: D Line
+    note: place
+  - ko: Gate-Raid突袭大门运动饮料
+    zh: Gatorade sports drink (Artifact)
+    note: term
+  - ko: M&M豆
+    zh: M&M Beans (Machine Muscle)
+    note: term
+  - ko: Machine Muscle
+    zh: Machine Muscle
+    note: term
+  - ko: Morgan & Morgan
+    zh: Morgan & Morgan
+    note: org
+  - ko: T字杆
+    zh: T-bar (weapon)
+    note: term
+  - ko: 乔喜悦
+    zh: Joy Jo
+    note: character
+  - ko: 乔纳
+    zh: Jonah
+    note: character
   - ko: 乘车须知
     zh: Passenger Rules / Ride Guidelines
     note: term - rules for taking the taxi in the Nest
   - ko: 伊文
     zh: Ivan
     note: character - bodyguard
+  - ko: 传言
+    zh: Rumor (Artifact)
+    note: term
   - ko: 伪像
     zh: Artifact
     note: term - supernatural objects/entities that come from the Nest
+  - ko: 克莱登医院
+    zh: Clayton Hospital
+    note: place
+  - ko: 凯家
+    zh: Key House Faction
+    note: org
+  - ko: 凯罗南
+    zh: Ronan Key
+    note: character - Chase's foster father
+  - ko: 单干
+    zh: solo operator
+    note: term
+  - ko: 卡特·摩根
+    zh: Carter Morgan
+    note: character
+  - ko: 吸尘器
+    zh: vacuum device (Artifact)
+    note: term
   - ko: 吸氧机
     zh: oxygen machine
     note: term
+  - ko: 回忆杀
+    zh: Nostalgia Attack
+    note: term
+  - ko: 圣路易斯医院
+    zh: St. Louis Hospital
+    note: place
   - ko: 安东尼
     zh: Anthony
     note: character
   - ko: 家派
     zh: House Faction
     note: org - faction/organization that employs Hunters
+  - ko: 家派猎人
+    zh: House Faction Hunter
+    note: term
+  - ko: 小泰
+    zh: Taylor
+    note: character, same as Taylor Ford
   - ko: 居民
     zh: Resident
     note: term - doppelganger/nest entity that copies a person's identity
@@ -48,20 +131,47 @@ glossary:
   - ko: 布鲁明戴尔
     zh: Bloomingdale's
     note: place - department store reference
+  - ko: 布鲁蓝区
+    zh: Brooklyn District
+    note: place
   - ko: 布鲁蓝社区大学站
-    zh: Buluan Community College Station
+    zh: Brooklyn Community College Station
+    note: place
+  - ko: 府太蓝
+    zh: Taylor Ford
+    note: character
+  - ko: 府汉
+    zh: Han Ford
+    note: character
+  - ko: 慈善救助站
+    zh: charity relief station
+    note: place
+  - ko: 扫帚街
+    zh: Broom Street
     note: place
   - ko: 护工
     zh: nurse aide
     note: term
+  - ko: 拢珍
+    zh: Jane Lynch
+    note: character
+  - ko: 摩根家
+    zh: Morgan House Faction
+    note: org
   - ko: 摩根家派
     zh: Morgan House Faction
     note: org - hunter house faction
   - ko: 无限幻境的虚拟指南
     zh: Virtual Guide to the Infinite Illusion
     note: term - special ability/item
+  - ko: 束线带
+    zh: zip tie
+    note: term
   - ko: 柴司
     zh: Chase
+    note: character
+  - ko: 格林
+    zh: Green
     note: character
   - ko: 模拟人生
     zh: The Sims
@@ -75,18 +185,21 @@ glossary:
   - ko: 消防斧
     zh: fire axe
     note: term - weapon used in combat scene
+  - ko: 火槽
+    zh: fire groove / flame slot
+    note: term
   - ko: 烛泪
     zh: Candlefall / Candle Tears
     note: term - artifact name (the giant candle artifact)
   - ko: 狄兰
     zh: Dylan
     note: character - bodyguard
-  - ko: 凯罗南
-    zh: Rolan Kay
-    note: character - Chase's foster father
   - ko: 猎人
     zh: Hunter
     note: term - people who hunt/retrieve Artifacts from the Nest
+  - ko: 猎人主管
+    zh: Hunter Director
+    note: term
   - ko: 猫腻
     zh: Maoni
     note: character - referenced author (real person)
@@ -102,20 +215,41 @@ glossary:
   - ko: 皇鲤
     zh: Kingsley
     note: character
+  - ko: 皇鲤·罗斯林
+    zh: Kingsley Roselyn
+    note: character
   - ko: 社工
     zh: social worker
     note: term
   - ko: 秃鹫
     zh: Vulture
     note: term - resident type/name
+  - ko: 秃鹫居民
+    zh: Vulture Resident
+    note: term
   - ko: 科罗拉多大道
     zh: Colorado Avenue
+    note: place
+  - ko: 第九十九街
+    zh: Ninety-Ninth Street
+    note: place
+  - ko: 第九街
+    zh: Ninth Street
     note: place
   - ko: 粉笔画房子
     zh: chalk-drawn hopscotch grid
     note: term - special location/game grid in the Nest
   - ko: 紧急支援系统
     zh: Emergency Response System
+    note: term
+  - ko: 自动贩卖机
+    zh: vending machine (Artifact dispenser)
+    note: term
+  - ko: 莫兰道
+    zh: London Moon
+    note: character
+  - ko: 葡萄汽水
+    zh: grape soda (Artifact)
     note: term
   - ko: 蓝布袋
     zh: Blue Bags
@@ -126,14 +260,29 @@ glossary:
   - ko: 虹桥机场
     zh: Hongqiao Airport
     note: place - airport in Shanghai
+  - ko: 蛇带
+    zh: Serpent Band
+    note: term
   - ko: 蜜姐
     zh: Sister Mi
     note: character - referenced superior/organizer
+  - ko: 蝴蝶因素
+    zh: butterfly effect
+    note: term
+  - ko: 裁缝工具
+    zh: tailor's tools (Artifact)
+    note: term
   - ko: 跳房子
     zh: Hopscotch
     note: term - a specific dangerous area/section within the Nest
+  - ko: 逆光之间
+    zh: Between the Backlights (bar)
+    note: place
   - ko: 通路
     zh: passage/channel (special ability conduit)
+    note: term
+  - ko: 野鹿便利店
+    zh: Wild Deer Convenience Store
     note: term
   - ko: 金枪匠卢梭
     zh: Gunsmith Rousseau
@@ -147,6 +296,9 @@ glossary:
   - ko: 雏菊
     zh: Daisy
     note: term
+  - ko: 韦夫人
+    zh: Mrs. Wellesley
+    note: character
   - ko: 韦家庄园
     zh: Wellesley Family Estate
     note: place
@@ -162,6 +314,15 @@ glossary:
   - ko: 黄浦江
     zh: Huangpu River
     note: place - river in Shanghai
+  - ko: 黑摩尔大学法学部
+    zh: Blackmoor University Law Department
+    note: place
   - ko: 黑摩尔市
     zh: Blackmoor City
     note: place
+  - ko: 黑色正方体
+    zh: black cube (Artifact)
+    note: term
+  - ko: 黛菊·门罗
+    zh: Daisy Monroe
+    note: character
