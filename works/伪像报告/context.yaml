@@ -8,7 +8,8 @@ style: >-
 
   world where 1% of people have an innate "通路" (gateway) into perilous otherworlds.
 
-  - Do not use the word "genuine" or "actually". Use other word choices such as "actual", "truly", and etc, whatever is more appropriated.
+  - Do not use the word "genuine" or "actually". Use other word choices such as "actual", "truly",
+  and etc, whatever is more appropriated.
 
   - Translate into natural, fluent, English prose that reads like a professionally localized web
   novel.
@@ -41,7 +42,6 @@ style: >-
   - Convert in-world currency notes faithfully (the book states 1 黑摩尔 = 8 RMB).
 
   - Do not add translator notes, summaries, or commentary.
-
 glossary:
   - ko: C线
     zh: C Line
@@ -61,11 +61,23 @@ glossary:
   - ko: Morgan & Morgan
     zh: Morgan & Morgan
     note: org
+  - ko: Temptation
+    zh: Temptation (nightclub)
+    note: place
   - ko: T字杆
     zh: T-bar (weapon)
     note: term
+  - ko: 下水道男孩
+    zh: Sewer Boys
+    note: org
+  - ko: 东橘子路
+    zh: East Orange Road
+    note: place
   - ko: 乔喜悦
     zh: Joy Jo
+    note: character
+  - ko: 乔治·格林
+    zh: George Green
     note: character
   - ko: 乔纳
     zh: Jonah
@@ -76,6 +88,12 @@ glossary:
   - ko: 伊文
     zh: Ivan
     note: character - bodyguard
+  - ko: 伊文·威斯顿
+    zh: Ivan Weston
+    note: character
+  - ko: 传奇饭店
+    zh: Legend Hotel
+    note: place
   - ko: 传言
     zh: Rumor (Artifact)
     note: term
@@ -85,15 +103,15 @@ glossary:
   - ko: 克莱登医院
     zh: Clayton Hospital
     note: place
+  - ko: 凯叔
+    zh: Uncle Key
+    note: character - reffering to Ronan Key
   - ko: 凯家
     zh: Key House Faction
     note: org
   - ko: 凯罗南
     zh: Ronan Key
     note: character - Chase's foster father
-  - ko: 凯叔
-    zh: Uncle Key
-    note: character - reffering to Ronan Key
   - ko: 单干
     zh: solo operator
     note: term
@@ -112,9 +130,18 @@ glossary:
   - ko: 圣路易斯医院
     zh: St. Louis Hospital
     note: place
+  - ko: 夏天
+    zh: Summer (Nest celebrity / 'Nest's Daughter')
+    note: character
   - ko: 安东尼
     zh: Anthony
     note: character
+  - ko: 安德鲁·库博
+    zh: Andrew Cooper
+    note: character
+  - ko: 安珀警报
+    zh: Amber Alert (Artifact notification)
+    note: term
   - ko: 家派
     zh: House Faction
     note: org - faction/organization that employs Hunters
@@ -124,12 +151,33 @@ glossary:
   - ko: 小泰
     zh: Taylor
     note: character, same as Taylor Ford
+  - ko: 小罗伯特·塞尔格斯
+    zh: Robert Selges Jr.
+    note: character
   - ko: 居民
     zh: Resident
     note: term - doppelganger/nest entity that copies a person's identity
+  - ko: 巢民女儿
+    zh: Nest's Daughter
+    note: term
   - ko: 巢穴
     zh: Nest
     note: term - the supernatural lair/dungeon setting
+  - ko: 巢穴统治游戏
+    zh: Nest Domination Game
+    note: term
+  - ko: 巢穴解离症
+    zh: Nest Dissociation Syndrome
+    note: term
+  - ko: 巢穴通讯网络
+    zh: Nest Communication Network (Artifact)
+    note: term
+  - ko: 布朗克兄弟
+    zh: Bronx Brothers
+    note: character
+  - ko: 布莉安娜
+    zh: Brianna
+    note: character
   - ko: 布鲁明戴尔
     zh: Bloomingdale's
     note: place - department store reference
@@ -144,6 +192,9 @@ glossary:
     note: character
   - ko: 府汉
     zh: Han Ford
+    note: character
+  - ko: 弗莱
+    zh: Flay
     note: character
   - ko: 慈善救助站
     zh: charity relief station
@@ -163,12 +214,21 @@ glossary:
   - ko: 摩根家派
     zh: Morgan House Faction
     note: org - hunter house faction
+  - ko: 文字编辑软件
+    zh: word-editing software (Artifact)
+    note: term
   - ko: 无限幻境的虚拟指南
     zh: Virtual Guide to the Infinite Illusion
     note: term - special ability/item
+  - ko: 时间伪像
+    zh: time Artifact
+    note: term
   - ko: 束线带
     zh: zip tie
     note: term
+  - ko: 极木
+    zh: Kogi
+    note: character
   - ko: 柴司
     zh: Chase
     note: character
@@ -178,12 +238,18 @@ glossary:
   - ko: 模拟人生
     zh: The Sims
     note: term - video game reference
+  - ko: 水银
+    zh: Mercury
+    note: character
   - ko: 波西米亚的翔
     zh: Bohemian Xiang
     note: character - reader/patron username
   - ko: 浦东机场
     zh: Pudong Airport
     note: place - airport in Shanghai
+  - ko: 海姨
+    zh: Aunt Hai
+    note: character
   - ko: 消防斧
     zh: fire axe
     note: term - weapon used in combat scene
@@ -193,6 +259,9 @@ glossary:
   - ko: 烛泪
     zh: Candlefall / Candle Tears
     note: term - artifact name (the giant candle artifact)
+  - ko: 牛仔山查斯
+    zh: Cowboy Hill Chase
+    note: org
   - ko: 狄兰
     zh: Dylan
     note: character - bodyguard
@@ -244,11 +313,20 @@ glossary:
   - ko: 紧急支援系统
     zh: Emergency Response System
     note: term
+  - ko: 老式广播机
+    zh: vintage radio (Artifact)
+    note: term
   - ko: 自动贩卖机
     zh: vending machine (Artifact dispenser)
     note: term
+  - ko: 芮米
+    zh: Remy
+    note: character
   - ko: 莫兰道
     zh: London Moon
+    note: character
+  - ko: 萝比·玛格丽特
+    zh: Robbie Margaret
     note: character
   - ko: 葡萄汽水
     zh: grape soda (Artifact)
@@ -277,12 +355,18 @@ glossary:
   - ko: 跳房子
     zh: Hopscotch
     note: term - a specific dangerous area/section within the Nest
+  - ko: 达米安
+    zh: Damian
+    note: character
   - ko: 逆光之间
     zh: Between the Backlights (bar)
     note: place
   - ko: 通路
     zh: passage/channel (special ability conduit)
     note: term
+  - ko: 道格拉斯
+    zh: Douglas
+    note: character
   - ko: 野鹿便利店
     zh: Wild Deer Convenience Store
     note: term
@@ -304,6 +388,9 @@ glossary:
   - ko: 韦家庄园
     zh: Wellesley Family Estate
     note: place
+  - ko: 韦氏总部大厦
+    zh: Wellesley Headquarters Tower
+    note: place
   - ko: 韦西莱
     zh: Wellesley
     note: character
@@ -316,11 +403,17 @@ glossary:
   - ko: 黄浦江
     zh: Huangpu River
     note: place - river in Shanghai
+  - ko: 黑心脏餐厅
+    zh: Black Heart Restaurant
+    note: place
   - ko: 黑摩尔大学法学部
     zh: Blackmoor University Law Department
     note: place
   - ko: 黑摩尔市
     zh: Blackmoor City
+    note: place
+  - ko: 黑摩尔市中央警局
+    zh: Blackmoor City Central Police Department
     note: place
   - ko: 黑色正方体
     zh: black cube (Artifact)
