@@ -43,6 +43,9 @@ style: >-
 
   - Do not add translator notes, summaries, or commentary.
 glossary:
+  - ko: ".44"
+    zh: .44 caliber
+    note: term
   - ko: C线
     zh: C Line
     note: place
@@ -67,6 +70,9 @@ glossary:
   - ko: T字杆
     zh: T-bar (weapon)
     note: term
+  - ko: 一条舌头
+    zh: a tongue (Artifact)
+    note: term
   - ko: 下水道男孩
     zh: Sewer Boys
     note: org
@@ -85,6 +91,9 @@ glossary:
   - ko: 乘车须知
     zh: Passenger Rules / Ride Guidelines
     note: term - rules for taking the taxi in the Nest
+  - ko: 亚洲市场
+    zh: Asian Market
+    note: place
   - ko: 伊文
     zh: Ivan
     note: character - bodyguard
@@ -103,6 +112,9 @@ glossary:
   - ko: 克莱登医院
     zh: Clayton Hospital
     note: place
+  - ko: 公共落脚点
+    zh: public safe house
+    note: term
   - ko: 凯叔
     zh: Uncle Key
     note: character - reffering to Ronan Key
@@ -112,12 +124,24 @@ glossary:
   - ko: 凯罗南
     zh: Ronan Key
     note: character - Chase's foster father
+  - ko: 分离型伪像
+    zh: detached-type Artifact
+    note: term
   - ko: 单干
     zh: solo operator
+    note: term
+  - ko: 单干猎人
+    zh: solo hunter
     note: term
   - ko: 卡特·摩根
     zh: Carter Morgan
     note: character
+  - ko: 叠加态
+    zh: superposition state
+    note: term
+  - ko: 后援力量
+    zh: backup support
+    note: term
   - ko: 吸尘器
     zh: vacuum device (Artifact)
     note: term
@@ -130,9 +154,18 @@ glossary:
   - ko: 圣路易斯医院
     zh: St. Louis Hospital
     note: place
+  - ko: 地上陵墓
+    zh: vestibule mausoleum
+    note: place
+  - ko: 墓园
+    zh: cemetery / graveyard
+    note: place
   - ko: 夏天
     zh: Summer (Nest celebrity / 'Nest's Daughter')
     note: character
+  - ko: 奈特家
+    zh: Knight House Faction
+    note: org
   - ko: 安东尼
     zh: Anthony
     note: character
@@ -148,21 +181,39 @@ glossary:
   - ko: 家派猎人
     zh: House Faction Hunter
     note: term
+  - ko: 对讲机
+    zh: walkie-talkie
+    note: term
   - ko: 小泰
     zh: Taylor
     note: character, same as Taylor Ford
   - ko: 小罗伯特·塞尔格斯
     zh: Robert Selges Jr.
     note: character
+  - ko: 局部游戏
+    zh: local game / sub-game
+    note: term
+  - ko: 局长
+    zh: Police Chief / Chief of Police
+    note: term
   - ko: 居民
     zh: Resident
     note: term - doppelganger/nest entity that copies a person's identity
+  - ko: 居民化
+    zh: Resident-ification
+    note: term
+  - ko: 居民资料登记表
+    zh: Resident Registration Form
+    note: term
   - ko: 巢民女儿
     zh: Nest's Daughter
     note: term
   - ko: 巢穴
     zh: Nest
     note: term - the supernatural lair/dungeon setting
+  - ko: 巢穴173电台
+    zh: Nest Radio 173
+    note: term
   - ko: 巢穴统治游戏
     zh: Nest Domination Game
     note: term
@@ -184,18 +235,33 @@ glossary:
   - ko: 布鲁蓝区
     zh: Brooklyn District
     note: place
+  - ko: 布鲁蓝区图书馆
+    zh: Brooklyn District Library
+    note: place
   - ko: 布鲁蓝社区大学站
     zh: Brooklyn Community College Station
     note: place
   - ko: 府太蓝
     zh: Taylor Ford
     note: character
+  - ko: 府太蓝队
+    zh: Taylor Ford Team
+    note: term
   - ko: 府汉
     zh: Han Ford
     note: character
   - ko: 弗莱
     zh: Flay
     note: character
+  - ko: 忍者神龟
+    zh: Teenage Mutant Ninja Turtles
+    note: term
+  - ko: 恐怖谷效应
+    zh: uncanny valley effect
+    note: term
+  - ko: 感恩节
+    zh: Thanksgiving
+    note: term
   - ko: 慈善救助站
     zh: charity relief station
     note: place
@@ -204,6 +270,9 @@ glossary:
     note: place
   - ko: 护工
     zh: nurse aide
+    note: term
+  - ko: 拐弯抹角的真相调查问卷
+    zh: Roundabout Truth Survey
     note: term
   - ko: 拢珍
     zh: Jane Lynch
@@ -223,6 +292,9 @@ glossary:
   - ko: 时间伪像
     zh: time Artifact
     note: term
+  - ko: 杜鹃之子
+    zh: Cuckoo's Child
+    note: term
   - ko: 束线带
     zh: zip tie
     note: term
@@ -232,15 +304,27 @@ glossary:
   - ko: 柴司
     zh: Chase
     note: character
+  - ko: 格式转换文档
+    zh: format conversion document
+    note: term
   - ko: 格林
     zh: Green
     note: character
+  - ko: 梦编剧
+    zh: Dream Playwright
+    note: term
+  - ko: 楚门的世界
+    zh: The Truman Show
+    note: term
   - ko: 模拟人生
     zh: The Sims
     note: term - video game reference
   - ko: 水银
     zh: Mercury
     note: character
+  - ko: 沙漠之鹰
+    zh: Desert Eagle
+    note: term
   - ko: 波西米亚的翔
     zh: Bohemian Xiang
     note: character - reader/patron username
@@ -250,9 +334,15 @@ glossary:
   - ko: 海姨
     zh: Aunt Hai
     note: character
+  - ko: 海芦苇
+    zh: Reed Hydes
+    note: character
   - ko: 消防斧
     zh: fire axe
     note: term - weapon used in combat scene
+  - ko: 清醒梦
+    zh: lucid dream (Resident ability)
+    note: term
   - ko: 火槽
     zh: fire groove / flame slot
     note: term
@@ -313,6 +403,9 @@ glossary:
   - ko: 紧急支援系统
     zh: Emergency Response System
     note: term
+  - ko: 结界
+    zh: barrier / seal
+    note: term
   - ko: 老式广播机
     zh: vintage radio (Artifact)
     note: term
@@ -322,6 +415,9 @@ glossary:
   - ko: 芮米
     zh: Remy
     note: character
+  - ko: 荣誉居民
+    zh: Honorary Resident
+    note: term
   - ko: 莫兰道
     zh: London Moon
     note: character
@@ -352,11 +448,23 @@ glossary:
   - ko: 裁缝工具
     zh: tailor's tools (Artifact)
     note: term
+  - ko: 规则领域
+    zh: Rule Domain
+    note: term
+  - ko: 证物室
+    zh: Evidence Room
+    note: place
+  - ko: 跑单帮
+    zh: solo operator (independent)
+    note: term
   - ko: 跳房子
     zh: Hopscotch
     note: term - a specific dangerous area/section within the Nest
   - ko: 达米安
     zh: Damian
+    note: character
+  - ko: 迈高
+    zh: Michael
     note: character
   - ko: 逆光之间
     zh: Between the Backlights (bar)
@@ -376,11 +484,26 @@ glossary:
   - ko: 金雪梨
     zh: Sydney Ginn
     note: character
+  - ko: 钥匙
+    zh: Key (Artifact)
+    note: term
   - ko: 门罗
     zh: Monroe
     note: last name
+  - ko: 阿什利
+    zh: Ashley
+    note: character
+  - ko: 阿什利·裴吉
+    zh: Ashley Paige
+    note: character
+  - ko: 雇佣兵
+    zh: mercenary
+    note: term
   - ko: 雏菊
     zh: Daisy
+    note: term
+  - ko: 非居民资料登记表
+    zh: Non-Resident Registration Form
     note: term
   - ko: 韦夫人
     zh: Mrs. Wellesley
@@ -394,9 +517,15 @@ glossary:
   - ko: 韦西莱
     zh: Wellesley
     note: character
+  - ko: 韦西莱队
+    zh: Wellesley Team
+    note: term
   - ko: 马太法则
     zh: Matthew Effect
     note: term - sociological concept reference
+  - ko: 鹤嘴锄
+    zh: pickaxe (weapon)
+    note: term
   - ko: 麦明河
     zh: Mai Minghe
     note: character
@@ -415,6 +544,9 @@ glossary:
   - ko: 黑摩尔市中央警局
     zh: Blackmoor City Central Police Department
     note: place
+  - ko: 黑摩尔市秘辛
+    zh: Blackmoor City Secrets
+    note: term
   - ko: 黑色正方体
     zh: black cube (Artifact)
     note: term
