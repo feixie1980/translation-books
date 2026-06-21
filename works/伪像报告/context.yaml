@@ -53,7 +53,7 @@ glossary:
     zh: D Line
     note: place
   - ko: Gate-Raid突袭大门运动饮料
-    zh: Gatorade sports drink (Artifact)
+    zh: Gate-Raid sports drink (Artifact)
     note: term
   - ko: M&M豆
     zh: M&M Beans (Machine Muscle)
@@ -109,6 +109,15 @@ glossary:
   - ko: 伪像
     zh: Artifact
     note: term - supernatural objects/entities that come from the Nest
+  - ko: 伪像报告
+    zh: Artifact Report
+    note: term
+  - ko: 体外端粒
+    zh: Extracorporeal Telomere
+    note: term
+  - ko: 停尸房
+    zh: morgue
+    note: place
   - ko: 克莱登医院
     zh: Clayton Hospital
     note: place
@@ -120,6 +129,9 @@ glossary:
     note: character - reffering to Roland Key
   - ko: 凯家
     zh: Key House Faction
+    note: org
+  - ko: 凯家殡仪馆
+    zh: Key House Funeral Home
     note: org
   - ko: 凯罗南
     zh: Roland Key
@@ -148,6 +160,9 @@ glossary:
   - ko: 吸氧机
     zh: oxygen machine
     note: term
+  - ko: 哈维尔
+    zh: Javier
+    note: character
   - ko: 回忆杀
     zh: Nostalgia Attack
     note: term
@@ -157,11 +172,17 @@ glossary:
   - ko: 地上陵墓
     zh: vestibule mausoleum
     note: place
+  - ko: 垃圾管道
+    zh: Garbage Chute (Resident)
+    note: term
   - ko: 墓园
     zh: cemetery / graveyard
     note: place
   - ko: 夏天
     zh: Summer (Nest celebrity / 'Nest's Daughter')
+    note: character
+  - ko: 天西
+    zh: Tianxi
     note: character
   - ko: 奈特家
     zh: Knight House Faction
@@ -190,6 +211,9 @@ glossary:
   - ko: 小罗伯特·塞尔格斯
     zh: Robert Selges Jr.
     note: character
+  - ko: 局部剧本
+    zh: local script / sub-scenario
+    note: term
   - ko: 局部游戏
     zh: local game / sub-game
     note: term
@@ -241,6 +265,9 @@ glossary:
   - ko: 布鲁蓝社区大学站
     zh: Brooklyn Community College Station
     note: place
+  - ko: 幸小姐
+    zh: Miss Xing
+    note: character
   - ko: 府太蓝
     zh: Taylor Ford
     note: character
@@ -253,6 +280,9 @@ glossary:
   - ko: 弗莱
     zh: Flay
     note: character
+  - ko: 影视人生
+    zh: Cinematic Life
+    note: term
   - ko: 忍者神龟
     zh: Teenage Mutant Ninja Turtles
     note: term
@@ -292,6 +322,9 @@ glossary:
   - ko: 时间伪像
     zh: time Artifact
     note: term
+  - ko: 未爆弹
+    zh: unexploded bomb
+    note: term
   - ko: 杜鹃之子
     zh: Cuckoo's Child
     note: term
@@ -319,6 +352,9 @@ glossary:
   - ko: 模拟人生
     zh: The Sims
     note: term - video game reference
+  - ko: 欧马
+    zh: Omar
+    note: character
   - ko: 水银
     zh: Mercury
     note: character
@@ -370,8 +406,14 @@ glossary:
   - ko: 琥珀
     zh: Amber
     note: character - Sydney Ginn's friend, works finance for Morgan House Faction
+  - ko: 瑞秋
+    zh: Rachel
+    note: character
   - ko: 生命示警器
     zh: Life Alert / Emergency Alert Device
+    note: term
+  - ko: 电视人生
+    zh: TV Life
     note: term
   - ko: 皇鲤
     zh: Kingsley
@@ -388,6 +430,9 @@ glossary:
   - ko: 秃鹫居民
     zh: Vulture Resident
     note: term
+  - ko: 科尔医生
+    zh: Dr. Cole
+    note: character
   - ko: 科罗拉多大道
     zh: Colorado Avenue
     note: place
@@ -408,6 +453,9 @@ glossary:
     note: term
   - ko: 老式广播机
     zh: vintage radio (Artifact)
+    note: term
+  - ko: 能面
+    zh: Noh mask
     note: term
   - ko: 自动贩卖机
     zh: vending machine (Artifact dispenser)
@@ -451,6 +499,9 @@ glossary:
   - ko: 规则领域
     zh: Rule Domain
     note: term
+  - ko: 角色诅咒
+    zh: Character Curse
+    note: term
   - ko: 证物室
     zh: Evidence Room
     note: place
@@ -460,6 +511,9 @@ glossary:
   - ko: 跳房子
     zh: Hopscotch
     note: term - a specific dangerous area/section within the Nest
+  - ko: 辛西亚
+    zh: Cynthia
+    note: character
   - ko: 达米安
     zh: Damian
     note: character
@@ -520,6 +574,12 @@ glossary:
   - ko: 韦西莱队
     zh: Wellesley Team
     note: term
+  - ko: 韩六月
+    zh: June
+    note: character
+  - ko: 马丁·哈特利
+    zh: Martin Hartley
+    note: character
   - ko: 马太法则
     zh: Matthew Effect
     note: term - sociological concept reference
@@ -544,9 +604,15 @@ glossary:
   - ko: 黑摩尔市中央警局
     zh: Blackmoor City Central Police Department
     note: place
+  - ko: 黑摩尔市市长
+    zh: Blackmoor City Mayor
+    note: character
   - ko: 黑摩尔市秘辛
     zh: Blackmoor City Secrets
     note: term
+  - ko: 黑摩尔时报
+    zh: Blackmoor Times
+    note: org
   - ko: 黑色正方体
     zh: black cube (Artifact)
     note: term
