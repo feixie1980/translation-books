@@ -3,5 +3,9 @@
   "sourceFile": "235.txt",
   "format": "txt",
   "koChars": 2878,
-  "paragraphs": 74
+  "paragraphs": 74,
+  "model": "claude-sonnet-4-6",
+  "tokensIn": 8811,
+  "tokensOut": 2808,
+  "translatedAt": "2026-08-11T06:09:24.404Z"
 }

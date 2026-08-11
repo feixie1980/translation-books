@@ -55,6 +55,9 @@ glossary:
   - ko: Gate-Raid突袭大门运动饮料
     zh: Gate-Raid sports drink (Artifact)
     note: term
+  - ko: JL玩具公司
+    zh: JL Toy Company
+    note: org
   - ko: M&M豆
     zh: M&M Beans (Machine Muscle)
     note: term
@@ -63,6 +66,9 @@ glossary:
     note: term
   - ko: Morgan & Morgan
     zh: Morgan & Morgan
+    note: org
+  - ko: NuLife-Biotech
+    zh: NuLife-Biotech
     note: org
   - ko: Temptation
     zh: Temptation (nightclub)
@@ -79,6 +85,9 @@ glossary:
   - ko: 东橘子路
     zh: East Orange Road
     note: place
+  - ko: 中心湾岛
+    zh: Central Bay Island
+    note: place
   - ko: 乔喜悦
     zh: Joy Jo
     note: character
@@ -94,6 +103,18 @@ glossary:
   - ko: 亚洲市场
     zh: Asian Market
     note: place
+  - ko: 交警居民
+    zh: Traffic Cop Resident
+    note: term
+  - ko: 人物拆解空间
+    zh: Person Dismantling Space (Black Cube function)
+    note: term
+  - ko: 人物指令
+    zh: Person Command (Black Cube function)
+    note: term
+  - ko: 人物指令输入面
+    zh: Person Command Input Face (Black Cube)
+    note: term
   - ko: 伊文
     zh: Ivan
     note: character - bodyguard
@@ -115,6 +136,9 @@ glossary:
   - ko: 体外端粒
     zh: Extracorporeal Telomere
     note: term
+  - ko: 信息指令输入面
+    zh: Information Command Input Face (Black Cube)
+    note: term
   - ko: 停尸房
     zh: morgue
     note: place
@@ -124,6 +148,9 @@ glossary:
   - ko: 公共落脚点
     zh: public safe house
     note: term
+  - ko: 内特医生
+    zh: Dr. Nate
+    note: character
   - ko: 凯叔
     zh: Uncle Key
     note: character - reffering to Roland Key
@@ -139,6 +166,12 @@ glossary:
   - ko: 分离型伪像
     zh: detached-type Artifact
     note: term
+  - ko: 利瑞蒙
+    zh: Liremon
+    note: character
+  - ko: 劳拉
+    zh: Laura
+    note: character
   - ko: 单干
     zh: solo operator
     note: term
@@ -148,11 +181,23 @@ glossary:
   - ko: 卡特·摩根
     zh: Carter Morgan
     note: character
+  - ko: 卧底蛇
+    zh: Undercover Snake (Resident form)
+    note: term
+  - ko: 发条
+    zh: wind-up key (Nest-altered body feature)
+    note: term
   - ko: 叠加态
     zh: superposition state
     note: term
+  - ko: 口红
+    zh: "lipstick (Artifact: Flock Over Sky)"
+    note: term
   - ko: 后援力量
     zh: backup support
+    note: term
+  - ko: 后背漂
+    zh: Back-Drifter (Resident)
     note: term
   - ko: 吸尘器
     zh: vacuum device (Artifact)
@@ -165,6 +210,9 @@ glossary:
     note: character
   - ko: 回忆杀
     zh: Nostalgia Attack
+    note: term
+  - ko: 圆把手
+    zh: round door handle (on transformed face)
     note: term
   - ko: 圣路易斯医院
     zh: St. Louis Hospital
@@ -184,12 +232,33 @@ glossary:
   - ko: 天西
     zh: Tianxi
     note: character
+  - ko: 天西纸板
+    zh: Tianxi cardboard (Nest entity)
+    note: term
   - ko: 奈特家
     zh: Knight House Faction
     note: org
+  - ko: 奎恩区
+    zh: Quinn District
+    note: place
+  - ko: 契百利
+    zh: Qiboli (Chibori)
+    note: character
+  - ko: 奥修
+    zh: Aoshu
+    note: character
+  - ko: 奥连弗·迈森
+    zh: Oliver Mason
+    note: character
+  - ko: 娑北花
+    zh: Suobeihua
+    note: character
   - ko: 安东尼
     zh: Anthony
     note: character
+  - ko: 安妮仓库
+    zh: Annie Warehouse
+    note: place
   - ko: 安德鲁·库博
     zh: Andrew Cooper
     note: character
@@ -205,11 +274,20 @@ glossary:
   - ko: 对讲机
     zh: walkie-talkie
     note: term
+  - ko: 小卡特
+    zh: Little Carter
+    note: character
+  - ko: 小意大利区
+    zh: Little Italy District
+    note: place
   - ko: 小泰
     zh: Taylor
     note: character, same as Taylor Ford
   - ko: 小罗伯特·塞尔格斯
     zh: Robert Selges Jr.
+    note: character
+  - ko: 尤金
+    zh: Eugene
     note: character
   - ko: 局部剧本
     zh: local script / sub-scenario
@@ -244,6 +322,9 @@ glossary:
   - ko: 巢穴解离症
     zh: Nest Dissociation Syndrome
     note: term
+  - ko: 巢穴解离症严重地步
+    zh: advanced Nest Dissociation Syndrome
+    note: term
   - ko: 巢穴通讯网络
     zh: Nest Communication Network (Artifact)
     note: term
@@ -265,6 +346,9 @@ glossary:
   - ko: 布鲁蓝社区大学站
     zh: Brooklyn Community College Station
     note: place
+  - ko: 帕翠沙
+    zh: Patricia
+    note: character
   - ko: 幸小姐
     zh: Miss Xing
     note: character
@@ -277,9 +361,15 @@ glossary:
   - ko: 府汉
     zh: Han Ford
     note: character
+  - ko: 康妮
+    zh: Connie
+    note: character
   - ko: 弗莱
     zh: Flay
     note: character
+  - ko: 张贴工
+    zh: Placard Worker (Resident type)
+    note: term
   - ko: 影视人生
     zh: Cinematic Life
     note: term
@@ -307,6 +397,9 @@ glossary:
   - ko: 拢珍
     zh: Jane Lynch
     note: character
+  - ko: 接驳
+    zh: Docking (Nest-to-real-world connection technique)
+    note: term
   - ko: 摩根家
     zh: Morgan House Faction
     note: org
@@ -319,12 +412,24 @@ glossary:
   - ko: 无限幻境的虚拟指南
     zh: Virtual Guide to the Infinite Illusion
     note: term - special ability/item
+  - ko: 无限楼层
+    zh: Infinite Floors (Nest trap)
+    note: term
+  - ko: 旧港
+    zh: Old Harbor
+    note: place
   - ko: 时间伪像
     zh: time Artifact
     note: term
   - ko: 未爆弹
     zh: unexploded bomb
     note: term
+  - ko: 杂工
+    zh: Caretaker Resident
+    note: term
+  - ko: 李斯旦
+    zh: Lisidan
+    note: character
   - ko: 杜鹃之子
     zh: Cuckoo's Child
     note: term
@@ -342,6 +447,12 @@ glossary:
     note: term
   - ko: 格林
     zh: Green
+    note: character
+  - ko: 格林秘书
+    zh: Secretary Green
+    note: character
+  - ko: 梅根
+    zh: Megan
     note: character
   - ko: 梦编剧
     zh: Dream Playwright
@@ -364,6 +475,9 @@ glossary:
   - ko: 波西米亚的翔
     zh: Bohemian Xiang
     note: character - reader/patron username
+  - ko: 洁
+    zh: Jie
+    note: character
   - ko: 浦东机场
     zh: Pudong Airport
     note: place - airport in Shanghai
@@ -378,6 +492,9 @@ glossary:
     note: term - weapon used in combat scene
   - ko: 清醒梦
     zh: lucid dream (Resident ability)
+    note: term
+  - ko: 游客信息中心
+    zh: Tourist Information Center
     note: term
   - ko: 火槽
     zh: fire groove / flame slot
@@ -406,6 +523,9 @@ glossary:
   - ko: 琥珀
     zh: Amber
     note: character - Sydney Ginn's friend, works finance for Morgan House Faction
+  - ko: 琼斯
+    zh: Jones
+    note: character
   - ko: 瑞秋
     zh: Rachel
     note: character
@@ -421,6 +541,12 @@ glossary:
   - ko: 皇鲤·罗斯林
     zh: Kingsley Roselyn
     note: character
+  - ko: 皮特
+    zh: Pete
+    note: character
+  - ko: 砂雪
+    zh: Shaxue (Sandy)
+    note: character
   - ko: 社工
     zh: social worker
     note: term
@@ -429,6 +555,9 @@ glossary:
     note: term - resident type/name
   - ko: 秃鹫居民
     zh: Vulture Resident
+    note: term
+  - ko: 秃鹫居民化
+    zh: Vulture Resident-ification
     note: term
   - ko: 科尔医生
     zh: Dr. Cole
@@ -445,11 +574,26 @@ glossary:
   - ko: 粉笔画房子
     zh: chalk-drawn hopscotch grid
     note: term - special location/game grid in the Nest
+  - ko: 约翰·斯考特
+    zh: John Scott
+    note: character
+  - ko: 紧急出口标牌
+    zh: Emergency Exit Sign
+    note: term
   - ko: 紧急支援系统
     zh: Emergency Response System
     note: term
   - ko: 结界
     zh: barrier / seal
+    note: term
+  - ko: 综合指令输入面
+    zh: General Command Input Face (Black Cube)
+    note: term
+  - ko: 罗伯特
+    zh: Robert
+    note: character
+  - ko: 群鸟过空
+    zh: "Flock Over Sky (Artifact: lipstick)"
     note: term
   - ko: 老式广播机
     zh: vintage radio (Artifact)
@@ -460,8 +604,14 @@ glossary:
   - ko: 自动贩卖机
     zh: vending machine (Artifact dispenser)
     note: term
+  - ko: 艾梅粒
+    zh: Aimeli
+    note: character
   - ko: 芮米
     zh: Remy
+    note: character
+  - ko: 茉莉
+    zh: Molly
     note: character
   - ko: 荣誉居民
     zh: Honorary Resident
@@ -508,6 +658,9 @@ glossary:
   - ko: 跑单帮
     zh: solo operator (independent)
     note: term
+  - ko: 跨海大桥
+    zh: Cross-Sea Bridge
+    note: place
   - ko: 跳房子
     zh: Hopscotch
     note: term - a specific dangerous area/section within the Nest
@@ -544,6 +697,9 @@ glossary:
   - ko: 门罗
     zh: Monroe
     note: last name
+  - ko: 阿亚沃斯卡
+    zh: Ayahuasca
+    note: term
   - ko: 阿什利
     zh: Ashley
     note: character
@@ -556,6 +712,9 @@ glossary:
   - ko: 雏菊
     zh: Daisy
     note: term
+  - ko: 雪糕
+    zh: Ice Cream (dog name)
+    note: character
   - ko: 非居民资料登记表
     zh: Non-Resident Registration Form
     note: term
@@ -576,6 +735,9 @@ glossary:
     note: term
   - ko: 韩六月
     zh: June
+    note: character
+  - ko: 顾西周
+    zh: Gu Xizhou
     note: character
   - ko: 马丁·哈特利
     zh: Martin Hartley
@@ -613,6 +775,12 @@ glossary:
   - ko: 黑摩尔时报
     zh: Blackmoor Times
     note: org
+  - ko: 黑方
+    zh: Black Cube (Artifact)
+    note: term
+  - ko: 黑渊带
+    zh: Black Abyss Zone
+    note: term
   - ko: 黑色正方体
     zh: black cube (Artifact)
     note: term
